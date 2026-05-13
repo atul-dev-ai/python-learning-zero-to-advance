@@ -7,7 +7,7 @@ b = 10
 equal : ==
 not equal : !=
 greater than : >=
-less than : 
+less than : <=
 """
 
 # value compare korar jonno 2ta = use korte hoy ==
