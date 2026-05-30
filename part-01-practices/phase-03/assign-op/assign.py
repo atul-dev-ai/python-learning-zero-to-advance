@@ -11,6 +11,3 @@ print(x)
 msg = "hi"
 msg += '!'
 print(msg)
-
-
-
