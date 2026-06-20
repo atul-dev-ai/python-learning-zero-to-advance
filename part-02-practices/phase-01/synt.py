@@ -10,3 +10,4 @@ greet("Ankit")
 def add (num1, num2):
     print(num1 + num2)
 add(10, 30)
+add(100, 300)
