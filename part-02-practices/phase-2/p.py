@@ -4,7 +4,6 @@ def add (a, b, c):
 print(add(1, 2, 3))
 
 
-
 # *args likhe ei "star" python ke bole 
 def nums (*numbers):
     total = 0
