@@ -13,3 +13,11 @@ def nums (*numbers):
 
 print(nums(1, 2, 3, 4, 5))
 print(nums(1, 4, 2, 9, 10))
+
+def subs (*nums):
+    total = 0
+    for num in nums:
+        total -= num
+    return total
+print(subs(91,2,3,4, 5))
+print(subs(40, 5, 6, 2, 6,))
