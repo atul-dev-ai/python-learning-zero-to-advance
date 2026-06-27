@@ -24,3 +24,11 @@ def square(number):
     return number * number
 print(square(5))
 
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    elif num % 2 != 0:
+        return "Odd"
+    else:
+        return "Invalid Input"
+print(check_even_odd(5))
