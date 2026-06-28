@@ -80,3 +80,12 @@ def multiplication_table(number):
         print(f"{number} x {i} = {number * i}") # ekhane f-string use kora hoyche. f-string er maddhome variable ke string er moddhe use kora jay. ar ei f-string er moddhe variable ke {} er moddhe use kora hoyche. ei "X" holo multiplication er jonno use kora hoyche. ar ei "i" holo loop er variable.
 
 multiplication_table(5)
+
+# calculating total marks and percentage
+def result(marks1, marks2, marks3):
+    total = marks1 + marks2 + marks3
+    percentage = (total / 300) * 100
+    return total, percentage
+total_marks, percentage = result(80, 95, 90)
+print("Total marks: ", total_marks)
+print("Percentage: ", percentage)
