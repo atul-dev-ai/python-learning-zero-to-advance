@@ -72,3 +72,11 @@ def simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
 print("Simple Interest: ", simple_interest(1000, 5, 2))
 print("Simple Interest 2: ", simple_interest(2000, 7, 4))
+
+
+# multiplication table
+def multiplication_table(number):
+    for i in range(1, 11):
+        print(f"{number} x {i} = {number * i}") # ekhane f-string use kora hoyche. f-string er maddhome variable ke string er moddhe use kora jay. ar ei f-string er moddhe variable ke {} er moddhe use kora hoyche. ei "X" holo multiplication er jonno use kora hoyche. ar ei "i" holo loop er variable.
+
+multiplication_table(5)
