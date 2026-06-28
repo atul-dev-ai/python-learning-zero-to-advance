@@ -52,3 +52,12 @@ def maximum(a, v):
     else:
         return v
 print(maximum(5, 10))
+
+
+# student information 
+def student_info(name, age, department = "CIS"):
+    print("Name:", name)
+    print("Age:", age)
+    print("Department: ", department)
+student_info("Atul", 21)
+student_info("Atul", 21, "CIS major AI")
