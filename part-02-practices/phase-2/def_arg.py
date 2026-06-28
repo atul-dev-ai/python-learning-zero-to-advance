@@ -32,3 +32,23 @@ def check_even_odd(num):
     else:
         return "Invalid Input"
 print(check_even_odd(5))
+
+def check_admin(users = "Admin"):
+    if users == "Admin":
+        return "Welcome Admin"
+    elif users == "User":
+        return "Welcome User"
+    else:
+        return "Invalid User"
+print(check_admin("Admin"))
+print(check_admin("User"))
+print(check_admin("Guest"))
+print(check_admin()) # default value.
+
+# finding maximum
+def maximum(a, v):
+    if a > v:
+        return a
+    else:
+        return v
+print(maximum(5, 10))
