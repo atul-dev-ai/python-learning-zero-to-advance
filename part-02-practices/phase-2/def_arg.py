@@ -67,3 +67,8 @@ def rectangle_area(length, width):
     return length * width
 print("Area of rectangle: ", rectangle_area(5, 10))
 
+# calculating simple interest
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+print("Simple Interest: ", simple_interest(1000, 5, 2))
+print("Simple Interest 2: ", simple_interest(2000, 7, 4))
