@@ -61,3 +61,9 @@ def student_info(name, age, department = "CIS"):
     print("Department: ", department)
 student_info("Atul", 21)
 student_info("Atul", 21, "CIS major AI")
+
+# calculating area of rectangle
+def rectangle_area(length, width):
+    return length * width
+print("Area of rectangle: ", rectangle_area(5, 10))
+
