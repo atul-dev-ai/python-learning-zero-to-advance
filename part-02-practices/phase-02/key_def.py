@@ -6,3 +6,9 @@ introduce(25, "Bob") # ekhane vul ta hocche name parameter e age pass kora hoich
 
 # Keyrword Arguments. eta diye parameter name diye value pass kora jay. ekhane prm name ekta dilam arekta dilam na emon dile syntax error ashbe. Jemon:
 introduce(age = 21, name = "Atul Paul") # ekhane age parameter e 21 pass kora hoiche, ar name parameter e "Atul Paul" pass kora hoiche. ekhane vul ta hocche na karon ekhane amra parameter name diye value pass korechi.
+
+"""
+normanl params: fixed input
+args: unlimited unnamed output
+kwargs: unlimited named Output
+"""
