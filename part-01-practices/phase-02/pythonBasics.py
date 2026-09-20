@@ -1,3 +1,3 @@
-x = int(input("Enter number 1: "))
-y = int(input("Enter number 2: "))
-print(x + y)
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+print("Total number x + y", x+y)
