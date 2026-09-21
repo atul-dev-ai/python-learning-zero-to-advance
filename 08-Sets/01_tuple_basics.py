@@ -118,4 +118,10 @@ print(g.isdisjoint(h))
 
 marks = [80, 90, 80, 70, 90, 60]
 unique_marks = set(marks)
-print(unique_marks)
+print(unique_marks) 
+"""Set e conver korle original list er 
+    order ba duplicate count songrokhito thake na"""
+
+squares = {x ** 2 for x in range(1, 6)}
+print(squares)
+
