@@ -85,3 +85,11 @@ print(only_python)
 only_java = java_students - python_students
 print(only_java)
 
+# symmetric difference
+# operator = ^, symmetric_difference
+a = {1, 2, 3}
+b = {3, 4, 5}
+result = a ^ b
+print(result) # 3 badh jabe karon eti dui set ei ache
+
+# subset
