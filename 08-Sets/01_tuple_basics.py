@@ -98,3 +98,8 @@ c = {1, 2}
 d = {1, 2, 3, 4}
 print(a.issubset(b))
 
+# superset
+e = {1, 2, 3, 4}
+f = {1, 2}
+print(e.issuperset(f))
+
