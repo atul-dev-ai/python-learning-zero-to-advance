@@ -30,5 +30,9 @@ print(type(empty_set_01)) # Class = SET
 names = ["Atul", "Rahim", "Atul", "Karim", "Rahim"]
 print(type(names)) # list
 print(names)
-unique_names = set(names)
+unique_names = set(names) # Set
 print(unique_names)
+
+for number in numbers:
+    print(numbers)
+
