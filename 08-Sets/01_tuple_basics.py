@@ -64,3 +64,10 @@ print("Remaining: ", numbers)
 numbers.clear()
 print(numbers) # output = set()
 
+# union
+"""Union combines all unique elements from two sets"""
+python_students = {"Atul", "Rahim", "Karim", "Aditiya"}
+java_students = {"Rajat", "Anik", "Sakib", "Rahim"}
+all_students = python_students | java_students
+print(all_students)
+
