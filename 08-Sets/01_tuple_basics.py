@@ -10,6 +10,7 @@ print(unique_ids)
 
 # integer set
 numbers = {1, 2, 3, 4, 5}
+print(type(numbers)) # set
 print(numbers)
 
 # string set
@@ -36,3 +37,7 @@ print(unique_names)
 for number in numbers:
     print(numbers)
 
+numbers.add(9) # duplicate value add korle seta unchanged thake.
+print(numbers)
+
+# update
