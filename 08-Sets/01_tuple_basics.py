@@ -54,7 +54,13 @@ numbers.discard(9) # element thakle badh dey, na thakle error dey
 print(numbers)
 
 # pop()
+"""set unordered houay kon element
+remove hobe ta dhore newa jabe na."""
 removed = numbers.pop()
 print("Removed: ", removed)
 print("Remaining: ", numbers)
+
+# clear()
+numbers.clear()
+print(numbers) # output = set()
 
