@@ -37,7 +37,24 @@ print(unique_names)
 for number in numbers:
     print(numbers)
 
+# add()
 numbers.add(9) # duplicate value add korle seta unchanged thake.
 print(numbers)
 
-# update
+# update()
+numbers.update([5, 6, 7, 8]) 
+print(numbers)
+
+# remove()
+numbers.remove(8)
+print(numbers)
+
+# discard()
+numbers.discard(9) # element thakle badh dey, na thakle error dey
+print(numbers)
+
+# pop()
+removed = numbers.pop()
+print("Removed: ", removed)
+print("Remaining: ", numbers)
+
