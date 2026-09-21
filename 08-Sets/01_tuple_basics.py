@@ -87,6 +87,8 @@ print(only_java)
 
 # symmetric difference
 # operator = ^, symmetric_difference
+"""elements je gula sudu ekti set e ache
+    kintu uboy set e common noy"""
 a = {1, 2, 3}
 b = {3, 4, 5}
 result = a ^ b
@@ -94,12 +96,23 @@ print(result) # 3 badh jabe karon eti dui set ei ache
 
 # subset
 # operator = issubset(), variable <= variable
+"""ekti set er sob elements onno set
+    er moddhe thakle prothomti subset"""
 c = {1, 2}
 d = {1, 2, 3, 4}
 print(a.issubset(b))
 
 # superset
+"""ekti set onno set er \
+    sob elements dharon korle seti Superset"""
 e = {1, 2, 3, 4}
 f = {1, 2}
 print(e.issuperset(f))
+
+# disjoint set
+"""duita set er moddhe kono common element na thakle
+    tara Disjoint"""
+g = {1, 2, 3}
+h = {4, 5, 6}
+print(g.isdisjoint(h))
 
