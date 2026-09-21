@@ -20,3 +20,10 @@ print(fruits)
 data = {19, "Python", 3.5, True}
 print(data)
 
+# Empty set
+empty_set = {}
+print(type(empty_set)) # {} ekti empty dictionary create kore
+
+empty_set_01 = set()
+print(type(empty_set_01)) # Class = SET
+
