@@ -11,4 +11,3 @@ print(numbers)
 
 numbers.remove(30)
 print(numbers)
-
