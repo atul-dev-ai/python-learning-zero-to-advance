@@ -125,3 +125,6 @@ print(unique_marks)
 squares = {x ** 2 for x in range(1, 6)}
 print(squares)
 
+squaress = {x ** 2 for x in [1, 2, 3, 2]}
+print(squaress)
+
