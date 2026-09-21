@@ -115,3 +115,7 @@ print(e.issuperset(f))
 g = {1, 2, 3}
 h = {4, 5, 6}
 print(g.isdisjoint(h))
+
+marks = [80, 90, 80, 70, 90, 60]
+unique_marks = set(marks)
+print(unique_marks)
