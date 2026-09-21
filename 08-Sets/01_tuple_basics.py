@@ -115,16 +115,3 @@ print(e.issuperset(f))
 g = {1, 2, 3}
 h = {4, 5, 6}
 print(g.isdisjoint(h))
-
-emails = [
-    "atul@gmail.com",
-    "Rahim@gmail.com",
-    "atul@gmail.com",
-    "karim@gmail.com",
-    "sakib@gmail.com"
-]
-print(type(emails)) # list
-unique_emails = set(emails)
-print(unique_emails)
-print(type(unique_emails)) # set
-
