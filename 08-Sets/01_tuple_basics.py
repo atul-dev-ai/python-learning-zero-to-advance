@@ -93,3 +93,8 @@ result = a ^ b
 print(result) # 3 badh jabe karon eti dui set ei ache
 
 # subset
+# operator = issubset(), variable <= variable
+c = {1, 2}
+d = {1, 2, 3, 4}
+print(a.issubset(b))
+
