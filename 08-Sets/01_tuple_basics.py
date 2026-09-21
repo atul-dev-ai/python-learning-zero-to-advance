@@ -70,4 +70,18 @@ python_students = {"Atul", "Rahim", "Karim", "Aditiya"}
 java_students = {"Rajat", "Anik", "Sakib", "Rahim"}
 all_students = python_students | java_students
 print(all_students)
+# all_students = python_students.union(java_students)
+
+# Intersection ( & )
+# intersection returns elements common to both sets.
+common_students = python_students & java_students
+print(common_students)
+# common_students = python_students.intersection(java_students)
+
+# Difference ( - )
+only_python = python_students - java_students
+print(only_python)
+
+only_java = java_students - python_students
+print(only_java)
 
