@@ -11,3 +11,12 @@ print(unique_ids)
 # integer set
 numbers = {1, 2, 3, 4, 5}
 print(numbers)
+
+# string set
+fruits = {"Apple", "Banana", "Mango"}
+print(fruits)
+
+# Mixed data
+data = {19, "Python", 3.5, True}
+print(data)
+
