@@ -27,3 +27,8 @@ print(type(empty_set)) # {} ekti empty dictionary create kore
 empty_set_01 = set()
 print(type(empty_set_01)) # Class = SET
 
+names = ["Atul", "Rahim", "Atul", "Karim", "Rahim"]
+print(type(names)) # list
+print(names)
+unique_names = set(names)
+print(unique_names)
