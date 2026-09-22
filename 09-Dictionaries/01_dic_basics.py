@@ -29,5 +29,14 @@ print(student)
 # pop()
 student["age"] = 21
 print(student)
-student.pop("age")
+
+
+age = student.pop("age")
+print(age)
 print(student)
+
+#get()
+# print(student["email"]) KeyError
+print(student.get("email")) # Output: None
+print(student.get("email", "Not Found"))
+
