@@ -51,3 +51,7 @@ print(student.items())
 
 # Length
 print(len(student))
+
+print("name" in student)
+print("age" in student)
+print("email" in student)
