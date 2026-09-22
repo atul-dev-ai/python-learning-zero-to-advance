@@ -25,3 +25,9 @@ student["city"] = "Manikganj"
 print(student)
 del student["age"]
 print(student)
+
+# pop()
+student["age"] = 21
+print(student)
+student.pop("age")
+print(student)
