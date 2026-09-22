@@ -45,3 +45,6 @@ print(student.keys())
 
 # show all values
 print(student.values())
+
+# Show all items. both key and values
+print(student.items())
