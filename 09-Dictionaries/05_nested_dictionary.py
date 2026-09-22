@@ -18,3 +18,5 @@ print(students["student1"]["marks"])
 print(students["student2"]["age"])
 
 # nested dictionary update
+students["student1"]["marks"] = 95
+print(students["student1"]["marks"])
