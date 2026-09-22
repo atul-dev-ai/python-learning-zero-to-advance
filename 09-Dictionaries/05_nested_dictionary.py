@@ -45,3 +45,20 @@ print(student["skills"])
 print(student["skills"][0])
 student["skills"].append("Machine Learning")
 print(student["skills"][3])
+
+# Dictionary + List + Dictionary
+student1 = {
+    "name": "Atul Paul",
+    "contact": {
+        "email": "atul@hotmail.com",
+        "phone": "015928339393939393"
+    },
+    "skills": [
+        "Python",
+        "SQL",
+        "Java"
+    ]
+}
+
+print(student1["contact"]["email"])
+print(student1["skills"][0])
