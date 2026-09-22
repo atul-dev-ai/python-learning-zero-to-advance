@@ -16,3 +16,12 @@ print(student["name"])
 print(student["age"])
 print(student["department"])
 print(student["university"])
+
+student["age"] = 22
+print(student)
+
+# New item add
+student["city"] = "Manikganj"
+print(student)
+del student["age"]
+print(student)
