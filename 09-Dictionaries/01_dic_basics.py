@@ -40,3 +40,5 @@ print(student)
 print(student.get("email")) # Output: None
 print(student.get("email", "Not Found"))
 
+# Show all Keys
+print(student.keys())
