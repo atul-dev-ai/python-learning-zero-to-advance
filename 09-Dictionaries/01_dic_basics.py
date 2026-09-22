@@ -12,3 +12,7 @@ student = {
     "university": "DIU"
 }
 
+print(student["name"])
+print(student["age"])
+print(student["department"])
+print(student["university"])
