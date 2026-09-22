@@ -31,3 +31,17 @@ for student_id, data in students.items():
     print("ID:", student_id)
     print("Name:", data["name"])
     print("Marks:", data["marks"])
+
+student = {
+    "name": "Atul",
+    "skills": [
+        "Python",
+        "SQL",
+        "Java"
+    ]
+}
+
+print(student["skills"])
+print(student["skills"][0])
+student["skills"].append("Machine Learning")
+print(student["skills"][3])
