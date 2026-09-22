@@ -63,3 +63,9 @@ student.update({
     "university": "Daffodil International University"
 })
 print(student)
+
+# clear()
+student.clear()
+print(student) #Empty
+# {} this is a empty dictionary but not a empty set()
+
