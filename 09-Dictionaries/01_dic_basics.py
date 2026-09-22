@@ -55,3 +55,11 @@ print(len(student))
 print("name" in student)
 print("age" in student)
 print("email" in student)
+
+# update()
+# eksathe notun data add ba existing data update kora jay.
+student.update({
+    "department": "Computing & Information System",
+    "university": "Daffodil International University"
+})
+print(student)
