@@ -20,3 +20,14 @@ print(students["student2"]["age"])
 # nested dictionary update
 students["student1"]["marks"] = 95
 print(students["student1"]["marks"])
+
+# Nested Dictionary Loop 
+print("========= Dic Loop =========")
+for student_id, data in students.items():
+    print(student_id)
+    print(data)
+
+for student_id, data in students.items():
+    print("ID:", student_id)
+    print("Name:", data["name"])
+    print("Marks:", data["marks"])
