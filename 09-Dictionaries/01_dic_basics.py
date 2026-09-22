@@ -106,3 +106,5 @@ student1 = {
 
 print(student1["skills"])
 print(student1["skills"][0])
+student1["city"] = "manikganj"
+print(student1)
