@@ -42,3 +42,6 @@ print(student.get("email", "Not Found"))
 
 # Show all Keys
 print(student.keys())
+
+# show all values
+print(student.values())
