@@ -92,3 +92,17 @@ students = {
 
 print(students["student1"]["name"])
 print(students["student2"]["age"])
+
+
+# List under Dictionary
+student1 = {
+    "id": 101,
+    "name": "Atul Paul",
+    "age": 21,
+    "department": "Computing & Information System",
+    "university": "Daffodil International University",
+    "skills": ["Python", "Java", "SQL", "React"]
+}
+
+print(student1["skills"])
+print(student1["skills"][0])
