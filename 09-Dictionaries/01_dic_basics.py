@@ -79,3 +79,16 @@ print("========== Key + Value by items() =============")
 for key, value in student.items():
     print(key+":", value)
 
+students = {
+    "student1": {
+        "name": "Atul Paul",
+        "age": 21
+    },
+    "student2": {
+        "name": "Ankit Paul",
+        "age": 9
+    }
+}
+
+print(students["student1"]["name"])
+print(students["student2"]["age"])
