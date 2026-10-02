@@ -28,3 +28,21 @@ def student(name, age, department):
     print("Department:", department)
 
 student("Atul Paul", 21, "CIS")
+
+# String Parametes
+def welcome(name):
+    print("Welcome", name)
+
+welcome("Atul")
+
+def square(number):
+    print(number * number)
+square(5)
+
+def result(name, marks):
+    print("Student:", name)
+    print("Marks:", marks)
+
+result("Atul", 90)
+result("Anikt", 100)
+
