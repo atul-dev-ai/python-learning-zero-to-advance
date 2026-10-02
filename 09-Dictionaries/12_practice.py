@@ -51,12 +51,13 @@ highest_total = 0
 for student in students:
     total = 0
 
-    for mark in student["marks"].values():
+    for marks in student["marks"].values():
+
         total += mark
+
     if total > highest_total:
         highest_total = total
         highest_student = student["name"]
 
 print("Highest Student: ", highest_student)
 print("Highest Total: ", highest_total)
-
