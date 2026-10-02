@@ -237,3 +237,10 @@
 #
 # **Remember:** Creating a function and running a function are **two different things**.
 # Next, we will learn about **Parameters & Arguments**!
+
+
+def introduce():
+    print("my name is Atul Paul")
+    print("i am a CIS Student")
+
+introduce()
