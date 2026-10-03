@@ -49,3 +49,12 @@ def double(number):
 result = add(19, 39)
 print(double(result))
 
+def check_number(number):
+    if number > 0:
+        return "Possitive"
+    else:
+        return "Negative"
+    
+result = check_number(9)
+print(result)
+
