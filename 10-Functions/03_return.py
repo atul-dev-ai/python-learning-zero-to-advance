@@ -58,3 +58,8 @@ def check_number(number):
 result = check_number(9)
 print(result)
 
+def calculate_total(math, english, python):
+    return math + english + python
+
+total = calculate_total(80, 75, 90)
+print("Total", total)
