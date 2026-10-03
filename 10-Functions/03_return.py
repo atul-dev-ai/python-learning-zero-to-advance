@@ -22,4 +22,30 @@ test()
 def example():
     return 100
     print("Hello")
-    
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+x = add(10, 30)
+y = multiply(30, 19)
+
+print(x)
+print(y)
+
+def square(number):
+    return number * number
+
+print(square(5))
+
+def add(a, b):
+    return a + b
+
+def double(number):
+    return number * 2
+
+result = add(19, 39)
+print(double(result))
+
