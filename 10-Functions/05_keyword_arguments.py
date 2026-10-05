@@ -34,3 +34,37 @@ result = calculate_bill(
     tax = 9
 )
 print(result)
+
+def login(username, password):
+    print("Username:", username)
+    print("Password", password)
+
+login(
+    username="atul123",
+    password="as"
+)
+
+def product(name, prices, quantity):
+    total = prices * quantity
+    return total
+result = product(
+    name = "Keyboard",
+    prices = 1500,
+    quantity = 2
+)
+
+print(result)
+
+def student_result(name, math, english, python):
+    total = math + english + python
+    average = total / 3
+    return total, average
+
+result = student_result(
+    name="Atul",
+    math=89,
+    english=88,
+    python=79
+)
+
+print(result)
