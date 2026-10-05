@@ -63,3 +63,12 @@ def calculate_total(math, english, python):
 
 total = calculate_total(80, 75, 90)
 print("Total", total)
+
+def is_even(number):
+    if number % 2 == 0:
+        return "True"
+    else:
+        return "False"
+        
+numbers = is_even(5)
+print(numbers)
