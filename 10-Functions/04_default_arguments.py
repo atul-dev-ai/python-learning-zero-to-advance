@@ -50,3 +50,14 @@ def calculate_price(price, tax = 5):
 result = calculate_price(1000, 10)
 print(result)
 
+def create_user(name, country = "Bangladesh"):
+    print(name, country)
+create_user("Atul")
+
+# Task 1
+def power(number, exponent = 3):
+    return number ** exponent
+
+print(power(5))
+print(power(7, 4))
+
