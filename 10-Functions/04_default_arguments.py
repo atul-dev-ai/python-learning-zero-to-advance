@@ -74,4 +74,12 @@ def calculate_bill(amount, discount = 0):
 calculate_bill(1000)
 calculate_bill(10000, 400)
 
-# Task 3
+# Task 4
+def introduce(name, age = 21, country = "Bangladesh"):
+    print("Name:", name)
+    print("age:", age)
+    print("country:", country)
+    
+introduce("Atul Paul")
+introduce("Rahim", 25)
+introduce("Karim", 28, "India")
