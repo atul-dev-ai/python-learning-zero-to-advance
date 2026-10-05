@@ -68,3 +68,10 @@ def student_infos(name, department = "Computing and Information System"):
 
 student_infos("Atul")
 
+# Task 3
+def calculate_bill(amount, discount = 0):
+    print(amount, discount)
+calculate_bill(1000)
+calculate_bill(10000, 400)
+
+# Task 3
