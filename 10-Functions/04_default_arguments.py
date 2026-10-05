@@ -61,3 +61,10 @@ def power(number, exponent = 3):
 print(power(5))
 print(power(7, 4))
 
+# Task 2
+def student_infos(name, department = "Computing and Information System"):
+    print(name)
+    print(department)
+
+student_infos("Atul")
+
