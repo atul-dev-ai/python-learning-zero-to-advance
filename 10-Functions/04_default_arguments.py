@@ -17,3 +17,11 @@ def welcome(name = "Student"):
     
 welcome()
 welcome("Atul")
+
+# Number Default value
+def power(number, exponent = 2):
+    return number ** exponent
+print(power(5))
+print(power(5, 3))
+
+#gnu
