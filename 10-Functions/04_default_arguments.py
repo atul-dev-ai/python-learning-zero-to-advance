@@ -24,4 +24,9 @@ def power(number, exponent = 2):
 print(power(5))
 print(power(5, 3))
 
-#gnu
+# Multiple Default Arguments
+def student_info(name = "Unknown", age = 0):
+    print("Name:", name)
+    print("Age:", age)
+student_info()
+student_info("Atul", 21)
