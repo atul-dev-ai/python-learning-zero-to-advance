@@ -30,3 +30,8 @@ def student_info(name = "Unknown", age = 0):
     print("Age:", age)
 student_info()
 student_info("Atul", 21)
+
+# Default + Normal Parameter
+def greet(name, message = "Hello"):
+    print(message, name)
+greet("Atul")
