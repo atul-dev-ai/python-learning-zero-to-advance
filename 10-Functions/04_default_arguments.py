@@ -35,3 +35,18 @@ student_info("Atul", 21)
 def greet(name, message = "Hello"):
     print(message, name)
 greet("Atul")
+
+# Default parameter er pore non-default parameter dewa jay na.
+
+
+def student(name, department = "CIS"):
+    print("Name:", name)
+    print("Department:", department)
+student("Atul")
+
+# Default Argument + Return
+def calculate_price(price, tax = 5):
+    return price + (price * tax / 100)
+result = calculate_price(1000, 10)
+print(result)
+
