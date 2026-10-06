@@ -63,4 +63,17 @@ student(
     semester = 3
 )
 
-def
+def student_result(*marks, **info):
+    total = 0
+
+    for mark in marks:
+        total += mark
+
+    print("Name:", info["name"])
+    print("Department:", info["dept"])
+    print("Total:", total)
+student_result(
+    80, 90, 70,
+    name = "Atul Paul",
+    dept = "CIS",
+)
