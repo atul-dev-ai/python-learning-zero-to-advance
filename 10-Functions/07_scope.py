@@ -99,6 +99,19 @@ def outer():
     name = "this variable is a Enclosing Scope"
 
     def inner():
-        print(name)
+        print(name) # name outer er variable
     inner()
 outer()
+'''
+Python prothome inner() er local scope e khujbe.
+na pele bairer outer() function er scope e khujbe.
+inner() er moddhe print(name)
+prothome khujbe:
+1. inner() er local scope
+2. outer() er enclosing scope
+3. global scope
+4. built-in scope
+
+LEGB -> Local Enclosing Global(full program) Built-in(Python er built-ing)
+'''
+
