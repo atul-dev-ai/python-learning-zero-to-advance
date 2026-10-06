@@ -31,4 +31,14 @@ def test():
 test() # function er bitorer "x" bairer "x" ke replace koreni.
 print(x)
 
+# global keyword
+'''
+jodi function er bitore theke global variable er
+value change korte chai, tokhon global bebohar korte pari.'''
+count = 0
+def increase():
+    global count
+    count += 1
 
+increase()
+print(count)
