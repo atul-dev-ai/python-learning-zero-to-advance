@@ -61,3 +61,17 @@ Rule:
     Error(NameError)
 Python normally betor theke baire variable khuje.
 '''
+
+balance = 1000
+def deposit(amount):
+    global balance
+    balance += amount
+deposit(500)
+print(balance)
+
+bals = 1200
+def deposits(bals, amount):
+    bals = bals + amount
+    return bals
+bals = deposits(bals, 500)
+print(bals)
