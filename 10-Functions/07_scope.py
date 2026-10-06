@@ -172,3 +172,17 @@ my_counter = counter()
 print(my_counter())
 print(my_counter())
 print(my_counter())
+
+# practice
+glo_x = 1000
+def outer():
+    glo_x = 50
+
+    def inner():
+        nonlocal glo_x
+        glo_x += 19
+        print("inner:", glo_x)
+    inner()
+    print("outer:", glo_x)
+outer()
+print("Global:", glo_x)
