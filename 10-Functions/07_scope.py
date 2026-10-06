@@ -20,4 +20,4 @@ function er baire python name khuje pacche na.
 name = "Atul" # Global variable
 def my_func():
     print(name)
-my_function
+my_func()
