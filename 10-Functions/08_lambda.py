@@ -29,3 +29,12 @@ print(double(8))
 mix = lambda a, b: a + b
 print(add(10, 80))
 
+# Square
+square = lambda x: x ** 2
+print(square(8))
+
+# Subtract
+subtract = lambda a, b: a - b
+print(subtract(20, 9))
+
+#
