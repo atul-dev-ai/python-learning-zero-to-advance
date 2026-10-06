@@ -115,3 +115,12 @@ prothome khujbe:
 LEGB -> Local Enclosing Global(full program) Built-in(Python er built-ing)
 '''
 
+# Local -> Enclosing
+def outer():
+    z = 20
+
+    def inner():
+        print(z)
+
+    inner()
+outer()
