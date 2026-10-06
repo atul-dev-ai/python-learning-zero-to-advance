@@ -23,9 +23,10 @@ def my_func():
 my_func()
 
 # Global variable naming issue
-x = 100
+x = 100 # Global
+
 def test():
-    x = 50
+    x = 50 # Local
     print(x)
 
 test() # function er bitorer "x" bairer "x" ke replace koreni.
@@ -42,3 +43,21 @@ def increase():
 
 increase()
 print(count)
+
+# python how to find a variable
+y = 200
+def testing():
+    print(y)
+    print(x)
+testing()
+'''
+ekhane test() er bitore x lekha ache.
+Python prothome kothay x khujbe.
+Rule:
+1. Local scope
+            na paile
+2. Global scope
+            na paile
+    Error(NameError)
+Python normally betor theke baire variable khuje.
+'''
