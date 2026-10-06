@@ -21,3 +21,14 @@ name = "Atul" # Global variable
 def my_func():
     print(name)
 my_func()
+
+# Global variable naming issue
+x = 100
+def test():
+    x = 50
+    print(x)
+
+test() # function er bitorer "x" bairer "x" ke replace koreni.
+print(x)
+
+
