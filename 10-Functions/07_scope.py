@@ -155,3 +155,20 @@ def outer():
         print(x)
     inner()
 outer()
+
+'''
+global = Global variable change korte use kora hoy.
+nonlocal = nested func er bairer func er variable change korte use kora hoy.'''
+
+def counter():
+    count = 0
+
+    def increase():
+        nonlocal count
+        count += 1
+        return count
+    return increase
+my_counter = counter()
+print(my_counter())
+print(my_counter())
+print(my_counter())
