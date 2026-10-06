@@ -37,4 +37,13 @@ print(square(8))
 subtract = lambda a, b: a - b
 print(subtract(20, 9))
 
-#
+# sorted() + lambda
+students = [
+    ("Atul", 80),
+    ("Ankit", 70),
+    ("Anik", 90)
+]
+
+students.sort(key=lambda student: student[1])
+print(students)
+
