@@ -124,3 +124,34 @@ def outer():
 
     inner()
 outer()
+
+# nonlocal
+def outer():
+    s = 12
+
+    def inner():
+        s = 1
+        print(s)
+    inner()
+    print(s)
+outer()
+
+def outer():
+    x = 20
+
+    def inner():
+        nonlocal x
+        x = 12
+    inner()
+    print(x)
+outer()
+
+def outer():
+    x = 10
+
+    def inner():
+        nonlocal x
+        x += 5
+        print(x)
+    inner()
+outer()
