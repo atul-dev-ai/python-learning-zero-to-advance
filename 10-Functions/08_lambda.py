@@ -47,3 +47,15 @@ students = [
 students.sort(key=lambda student: student[1])
 print(students)
 
+# Dictionary with Lambda
+student = {
+    "Atul": 89,
+    "Ankit": 78,
+    "Anik": 90
+}
+
+result = sorted(
+    student.items(),
+    key=lambda item: item[1]
+)
+print(result)
