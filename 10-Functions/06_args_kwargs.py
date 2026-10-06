@@ -20,6 +20,7 @@ tokhon **kwargs use kora hoy.
 '''
 def student_info(**infos):
     print(infos)
+
 student_info(
     name = "Atul Paul",
     age = 21,
@@ -39,3 +40,27 @@ print(add(5, 10))
 print(add(5, 10, 15))
 print(add(5, 10, 15, 20))
 
+
+result = add(10, 20, 30)
+print("Your values:", result)
+
+def student_info(**info):
+    for key, value in info.items():
+        print(key, ":", value)
+student_info(
+    name="Atul",
+    age=22,
+    department="SWE"
+)
+
+def student(*marks, **info):
+    print("Marks:", marks)
+    print("Info:", info)
+student(
+    80, 75, 90,
+    name = "Atul Paul",
+    dept = "CIS",
+    semester = 3
+)
+
+def
