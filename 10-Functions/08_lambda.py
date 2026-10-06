@@ -59,3 +59,9 @@ result = sorted(
     key=lambda item: item[1]
 )
 print(result)
+
+# Lambda + if-else
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+print(check(70))
+print(check(9))
+
