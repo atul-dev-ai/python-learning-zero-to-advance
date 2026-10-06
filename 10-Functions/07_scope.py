@@ -75,3 +75,30 @@ def deposits(bals, amount):
     return bals
 bals = deposits(bals, 500)
 print(bals)
+
+'''
+1. Local Scope
+2. Global Scope
+3. global Keyword
+4. Nested Function
+5. Enclosing Scope
+6. nonLocal
+7. LEGB Rule
+'''
+# Nested Function
+# A func defined inside another func is called a Nested Function.
+def outer():
+    def inner():
+        print("Hello from inner")
+    inner()
+outer()
+
+# Enclosing Scope:
+# Nested func er khetre bairer func er variable ke Enclosing scope bola hoy.
+def outer():
+    name = "this variable is a Enclosing Scope"
+
+    def inner():
+        print(name)
+    inner()
+outer()
