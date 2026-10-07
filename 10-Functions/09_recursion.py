@@ -13,3 +13,9 @@ print(result)
 
 results = map(lambda x: x ** 2, numbers)
 print(result) # output shorashori list hobe na. Python ekti map object dey.
+
+result1 = list(
+    map(lambda c: c **2, numbers)
+)
+print(result1)
+
