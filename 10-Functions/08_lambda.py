@@ -38,6 +38,11 @@ subtract = lambda a, b: a - b
 print(subtract(20, 9))
 
 # sorted() + lambda
+'''
+sorted mane holo kono Iterable er jinish gula 
+ke sort kore notun list e return kora.
+key= use kore tuple er kon ongsho dekhe sort korbe seta bola hoy.
+'''
 students = [
     ("Atul", 80),
     ("Ankit", 70),
