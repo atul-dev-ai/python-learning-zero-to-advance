@@ -90,3 +90,9 @@ result4 = list(
     filter(lambda name: len(name) > 6, names)
 )
 print(result4)
+
+# String condition
+result4 = list(
+    filter(lambda name: name.startswith("A"), names)
+)
+print(result4)
