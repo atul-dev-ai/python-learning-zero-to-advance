@@ -19,3 +19,9 @@ result1 = list(
 )
 print(result1)
 
+numbers2 = [222, 22, 29, 10, 8]
+result2 = list(
+    map(lambda d: d ** 2, numbers2)
+)
+print(result2)
+
