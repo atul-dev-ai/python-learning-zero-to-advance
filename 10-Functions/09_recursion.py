@@ -56,3 +56,9 @@ result4 = list(
     filter(lambda x: x > 5, numbers3)
 )
 print(result4)
+
+odd_numbers = list(
+    filter(lambda x: x % 2 != 0, numbers3)
+)
+print(odd_numbers)
+
