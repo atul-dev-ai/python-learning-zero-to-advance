@@ -76,3 +76,11 @@ negative = list(
     filter(lambda x: x < 0, numbers4)
 )
 print(negative)
+
+# Student passed
+marks = [35, 80, 45, 90, 25, 70]
+passed = list(
+    filter(lambda mark: mark >= 40, marks)
+)
+print(passed)
+
