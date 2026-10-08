@@ -146,3 +146,27 @@ bonus = list (
 print(bonus)
 result = sorted(bonus)
 print(result)
+
+# map() + filter() + sorted() in one line
+result = sorted (
+    map (
+        lambda x: x + 5,
+        filter(lambda x: x >= 5, marks)
+    )
+)
+print(result)
+
+passed = filter (
+    lambda item: item[1] >= 60, students.items()
+)
+
+bonus = map (
+    lambda item: (item[0], item[1] + 5), passed
+)
+
+result = sorted (
+    bonus,
+    key=lambda item: item[1], reverse=True
+)
+print(result)
+
