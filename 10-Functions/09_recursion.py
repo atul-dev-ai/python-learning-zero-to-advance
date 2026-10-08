@@ -96,3 +96,18 @@ result4 = list(
     filter(lambda name: name.startswith("A"), names)
 )
 print(result4)
+
+# Dictinary + filter()
+students = {
+    "Atul Paul": 86,
+    "Ankit Paul": 99,
+    "Anik Paul": 92,
+    "Sakib": 88
+}
+result = list(
+    filter(
+        lambda item: item[1] >= 80, students.items()
+    )
+)
+print(result)
+
