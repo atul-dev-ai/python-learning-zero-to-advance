@@ -84,3 +84,9 @@ passed = list(
 )
 print(passed)
 
+# names length
+names = ["Atul Paul", "Rahim", "Karim", "Sakib"]
+result4 = list(
+    filter(lambda name: len(name) > 6, names)
+)
+print(result4)
