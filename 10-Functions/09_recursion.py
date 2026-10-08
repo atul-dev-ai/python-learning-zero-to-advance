@@ -25,3 +25,30 @@ result2 = list(
 )
 print(result2)
 
+result3 = list (
+    map(lambda e: e + 10, numbers2)
+)
+print(result3)
+
+# names = ["Atul Paul", "Rahim", "Karim"]
+# result4 = list(
+#     map(lambda f: upper)
+# )
+
+'''
+filter() selects elements from an iterable based on a condition. 
+Only elements for which the function returns True are kept.
+'''
+
+numbers3 = [1, 2, 3, 4, 5, 6, 7]
+result4 = []
+for number in numbers3:
+    if number % 2 == 0:
+        result4.append(number)
+print(result4)
+
+result4 = list(
+    filter(lambda x: x % 3 == 0, numbers3)
+)
+print(result4)
+
