@@ -62,9 +62,17 @@ odd_numbers = list(
 )
 print(odd_numbers)
 
+
+# positive number
 numbers4 = [-5, 10, -2, 8, 0, 15, 10, -3, -9, 12]
 positive = list(
     filter(lambda x: x > 0, numbers4)
 )
 print(positive)
 print(sorted(positive))
+
+# Negative Numbers
+negative = list(
+    filter(lambda x: x < 0, numbers4)
+)
+print(negative)
