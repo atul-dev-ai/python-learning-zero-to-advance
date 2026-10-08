@@ -52,3 +52,7 @@ result4 = list(
 )
 print(result4)
 
+result4 = list(
+    filter(lambda x: x > 5, numbers3)
+)
+print(result4)
