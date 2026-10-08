@@ -112,7 +112,7 @@ result = list(
 print(result)
 
 # map() + filter()
-numbers5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+numbers5 = [1, 2, 12, 10, 8, 6, 7, 5, 9, 4, 11, 3]
 even_numbers = list(
     filter (
         lambda x: x % 2 == 0, numbers5
@@ -125,3 +125,24 @@ result4 = list (
 )
 print(even_numbers)
 print(result4)
+
+result4 = sorted(numbers5)
+print(result4)
+
+result4 = sorted(numbers5, reverse=True)
+print(result4)
+
+# map() + filter() + sorted()
+passed = filter(
+    lambda mark: mark >= 6, numbers5
+)
+passed = list(passed)
+print(passed)
+bonus = list (
+    map (
+        lambda mark: mark + 5, passed
+    )
+)
+print(bonus)
+result = sorted(bonus)
+print(result)
