@@ -59,3 +59,13 @@ def task3(n):
     return n * task3(n - 1)
 results = task3(6)
 print(results)
+
+# Task 4
+def task4(n):
+    if n == 0:
+        return 0
+
+    return n + task4(n - 1)
+
+result = task4(5)
+print(result)
