@@ -84,4 +84,9 @@ The function calls ifself with a smaller number
 until it reaches zero. Then it returns through the previous calls, 
 calculating the total.
 '''
-# 
+# recursion diye ekti songkhar power ber kora.
+def power(base, exponent):
+    if exponent == 0:
+        return 1
+    return base * power(base, exponent - 1)
+print(power(2, 4))
