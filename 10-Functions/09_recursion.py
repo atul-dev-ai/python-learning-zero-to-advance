@@ -42,3 +42,12 @@ def task1(n):
     task1(n - 1)
 
 task1(9)
+
+# Task 2
+def task2(n):
+    if n == 0:
+        return
+    task1(n - 1)
+    print(n)
+task2(10)
+
