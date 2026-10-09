@@ -32,3 +32,13 @@ def factorial(n):
 
 result = factorial(5)
 print(result)
+
+# task 1
+def task1(n):
+    if n == 0:
+        return
+    print(n)
+
+    task1(n - 1)
+
+task1(9)
