@@ -90,3 +90,12 @@ def power(base, exponent):
         return 1
     return base * power(base, exponent - 1)
 print(power(2, 4))
+
+# Recursion diye digits er jogfol
+def digit_sum(n):
+    if n == 0:
+        return 0
+    return n % 10 + digit_sum(n // 10)
+
+print(digit_sum(1234))
+
