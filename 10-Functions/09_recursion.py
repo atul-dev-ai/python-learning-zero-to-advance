@@ -69,3 +69,19 @@ def task4(n):
 
 result = task4(5)
 print(result)
+
+# 1. recursion diye 1 theke n porjonto sum
+def calculate_sum(n):
+    if n == 0:
+        return 0
+
+    return n + calculate_sum(n - 1)
+    print(n)
+calculate_sum(19)
+# print(calculate_sum(5))
+'''
+The function calls ifself with a smaller number 
+until it reaches zero. Then it returns through the previous calls, 
+calculating the total.
+'''
+# 
