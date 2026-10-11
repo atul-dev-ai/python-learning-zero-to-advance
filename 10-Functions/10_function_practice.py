@@ -25,3 +25,21 @@ def calculate_total(*marks):
 print(calculate_total(80, 75, 90))
 print(calculate_total(60, 10, 222))
 print(calculate_total(50, 70, 60, 80))
+
+'''
+*marks collects any number of positional arguments into a tuple,
+alowing the function to accept a flexible number of marks.
+'''
+
+# With *kwargs
+def student_info(**info):
+    for key, value in info.items():
+        print(key, ":", value)
+
+student_info (
+    name = "Atul Paul",
+    department = "CIS",
+    university = "DIU",
+    semester = 5
+)
+
