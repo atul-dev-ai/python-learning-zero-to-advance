@@ -1,5 +1,5 @@
 # *args
-def add(*numbers): # ekhane numbers ekto TUPLE. tai ekhane loop chalano jay.
+def add(*numbers): # Here numbers is a TUPLE, so we can iterate over it.
     total = 0
     
     for number in numbers:
@@ -12,9 +12,9 @@ print(add(10, 20, 40))
 print(add(10, 20 , 30, 40, 50))
 
 '''
-*args onek gula positional argument ney.
-kintu jodi onek gula Keyword argument kinte chai
-tokhon **kwargs use kora hoy.
+*args accepts multiple positional arguments as a tuple.
+If we want to pass multiple keyword arguments,
+we use **kwargs.
 *args -> Tuple
 **kwargs -> Dictionary
 '''
@@ -26,7 +26,7 @@ student_info(
     age = 21,
     dept = "CIS"
 )
-# infos ekti dictionary
+# infos is a dictionary
 
 def add(*numbers):
     total = 0
