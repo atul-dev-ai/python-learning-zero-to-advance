@@ -21,7 +21,7 @@ print(data)
 
 # Empty set
 empty_set = {}
-print(type(empty_set)) # {} ekti empty dictionary create kore
+print(type(empty_set)) # {} creates an empty dictionary
 
 empty_set_01 = set()
 print(type(empty_set_01)) # Class = SET
