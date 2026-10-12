@@ -17,3 +17,9 @@ print(file.readline())
 print(file.readline())
 
 file.close()
+
+file = open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "r")
+
+lines = file.readlines()
+print(lines)
+file.close
