@@ -1,8 +1,8 @@
-# Parameter holo function toirir somoy () er bitore je variable likhi take parameter bole
-def greet(name): # paramenter = name
+# A parameter is the variable listed inside the parentheses in the function definition.
+def greet(name): # parameter = name
     print("Hello", name)
 
-# Function call korar somoy parameter er jonno je actual value pathai take Argument bole.
+# An argument is the actual value sent to the function when it is called.
 greet("Atul") # argument = Atul
 greet("Ankit")
 greet("Anik")
@@ -29,7 +29,7 @@ def student(name, age, department):
 
 student("Atul Paul", 21, "CIS")
 
-# String Parametes
+# String Parameters
 def welcome(name):
     print("Welcome", name)
 
@@ -45,4 +45,3 @@ def result(name, marks):
 
 result("Atul", 90)
 result("Anikt", 100)
-
