@@ -1,8 +1,7 @@
 '''
-- Recursion holo emon ekti process ekhane
-ekti function nijekei abar call kore.
-- Recursion obosshoi kono ek somoy theme jabe.
-- je condition Recursion thamay take bole Base Case.
+- Recursion is a process where a function calls itself.
+- A recursive function must terminate at some point.
+- The stopping condition that ends recursion is called the Base Case.
 '''
 # Simple example
 def countdown(n):
@@ -70,7 +69,7 @@ def task4(n):
 result = task4(5)
 print(result)
 
-# 1. recursion diye 1 theke n porjonto sum
+# 1. Calculate sum from 1 to n using recursion
 def calculate_sum(n):
     if n == 0:
         return 0
@@ -86,18 +85,17 @@ The function calls ifself with a smaller number
 until it reaches zero. Then it returns through the previous calls, 
 calculating the total.
 '''
-# recursion diye ekti songkhar power ber kora.
+# Calculate power of a number using recursion
 def power(base, exponent):
     if exponent == 0:
         return 1
     return base * power(base, exponent - 1)
 print(power(2, 4))
 
-# Recursion diye digits er jogfol
+# Calculate sum of digits using recursion
 def digit_sum(n):
     if n == 0:
         return 0
     return n % 10 + digit_sum(n // 10)
 
 print(digit_sum(1234))
-
