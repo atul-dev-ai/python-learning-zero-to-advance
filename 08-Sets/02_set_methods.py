@@ -1,7 +1,7 @@
 numbers = {1, 2, 3, 4, 5}
 
 # add()
-numbers.add(9) # duplicate value add korle seta unchanged thake.
+numbers.add(9) # Adding duplicate values leaves the set unchanged.
 print(numbers)
 
 # update()
@@ -13,12 +13,11 @@ numbers.remove(8)
 print(numbers)
 
 # discard()
-numbers.discard(9) # element thakle badh dey, na thakle error dey
+numbers.discard(9) # Removes element if present; does not raise error if absent.
 print(numbers)
 
 # pop()
-"""set unordered houay kon element
-remove hobe ta dhore newa jabe na."""
+"""Since sets are unordered, you cannot predict which element will be removed."""
 removed = numbers.pop()
 print("Removed: ", removed)
 print("Remaining: ", numbers)
