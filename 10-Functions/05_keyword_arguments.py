@@ -1,6 +1,6 @@
 '''
-keyword argument er pore Positional Argument dewa jay na.
-Duplicate value dile error.
+Positional arguments cannot follow keyword arguments.
+Passing duplicate values for the same parameter will cause an error.
 '''
 
 # Basic Example
