@@ -62,7 +62,7 @@ bonus = list (
 print(bonus)
 
 
-# dictionary theke top student ber kora:
+# Find top students from a dictionary:
 students = {
     "Atul Paul": 85,
     "Ankit": 99,
