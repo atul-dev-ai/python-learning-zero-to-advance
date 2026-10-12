@@ -1,7 +1,7 @@
 '''
 --------------SCOPE-----------------
-Scope mane holo kono variable kothay access kora jabe
-ebong kothay kora jabe na.
+Scope defines where a variable can be accessed
+and where it cannot.
 1. Local Scope
 2. Global Scope
 '''
@@ -11,9 +11,9 @@ def my_function():
     print(name)
 my_function() 
 '''
-print(name) dile error dibe karon 
-name function er local scope er moddhe ache.
-function er baire python name khuje pacche na.
+Calling print(name) outside causes an error because 
+name exists only within the function's local scope.
+Outside the function, Python cannot find the variable name.
 '''
 
 # Global Scope
@@ -29,13 +29,13 @@ def test():
     x = 50 # Local
     print(x)
 
-test() # function er bitorer "x" bairer "x" ke replace koreni.
+test() # The local "x" inside the function does not replace the global "x".
 print(x)
 
 # global keyword
 '''
-jodi function er bitore theke global variable er
-value change korte chai, tokhon global bebohar korte pari.'''
+If we want to modify a global variable from inside
+a function, we can use the 'global' keyword.'''
 count = 0
 def increase():
     global count
@@ -51,15 +51,14 @@ def testing():
     print(x)
 testing()
 '''
-ekhane test() er bitore x lekha ache.
-Python prothome kothay x khujbe.
+Inside test(), Python looks for variable x in this order:
 Rule:
 1. Local scope
-            na paile
+            if not found:
 2. Global scope
-            na paile
-    Error(NameError)
-Python normally betor theke baire variable khuje.
+            if not found:
+    Error (NameError)
+Python searches for variables from inside out (innermost scope to outer).
 '''
 
 balance = 1000
@@ -94,25 +93,25 @@ def outer():
 outer()
 
 # Enclosing Scope:
-# Nested func er khetre bairer func er variable ke Enclosing scope bola hoy.
+# In nested functions, variables in the outer function belong to the Enclosing scope.
 def outer():
     name = "this variable is a Enclosing Scope"
 
     def inner():
-        print(name) # name outer er variable
+        print(name) # name is a variable from the outer function
     inner()
 outer()
 '''
-Python prothome inner() er local scope e khujbe.
-na pele bairer outer() function er scope e khujbe.
-inner() er moddhe print(name)
-prothome khujbe:
-1. inner() er local scope
-2. outer() er enclosing scope
+Python first searches inside inner()'s local scope.
+If not found, it checks outer()'s enclosing scope.
+When executing print(name) inside inner():
+Search order:
+1. inner() local scope
+2. outer() enclosing scope
 3. global scope
 4. built-in scope
 
-LEGB -> Local Enclosing Global(full program) Built-in(Python er built-ing)
+LEGB -> Local, Enclosing, Global (entire module), Built-in (Python built-ins)
 '''
 
 # Local -> Enclosing
@@ -157,8 +156,8 @@ def outer():
 outer()
 
 '''
-global = Global variable change korte use kora hoy.
-nonlocal = nested func er bairer func er variable change korte use kora hoy.'''
+global: Used to modify a global variable inside a function.
+nonlocal: Used to modify an enclosing variable from an outer function in a nested function.'''
 
 def counter():
     count = 0
