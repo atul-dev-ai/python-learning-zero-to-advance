@@ -43,3 +43,39 @@ student_info (
     semester = 5
 )
 
+# filter() + map()
+'''
+filter() selects passing marks,
+map() adds five bonus points, and
+list() converts the result into a list.
+'''
+marks = [35,80, 45, 90, 25, 70]
+passed = filter (
+    lambda mark: mark >= 40, marks
+)
+
+bonus = list (
+    map (
+        lambda mark: mark + 5, passed
+    )
+)
+print(bonus)
+
+
+# dictionary theke top student ber kora:
+students = {
+    "Atul Paul": 85,
+    "Ankit": 99,
+    "Anik": 92,
+    "Sakib": 35,
+    "Nabil": 48
+}
+
+top_students = sorted (
+    filter (
+        lambda item: item[1] >= 70, students.items()
+    ),
+    key= lambda item: item[1], reverse=True
+)
+
+print(top_students)
