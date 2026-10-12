@@ -22,4 +22,4 @@ file = open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handli
 
 lines = file.readlines()
 print(lines)
-file.close
+file.close()
