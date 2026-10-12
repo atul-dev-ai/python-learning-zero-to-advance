@@ -1,5 +1,5 @@
 '''
-Argument na dile function nije theke default value use korbe.
+If no argument is passed, the function will use the default value.
 '''
 def greet(name):
     print("Hello", name)
@@ -36,7 +36,7 @@ def greet(name, message = "Hello"):
     print(message, name)
 greet("Atul")
 
-# Default parameter er pore non-default parameter dewa jay na.
+# Non-default parameters cannot follow default parameters.
 
 
 def student(name, department = "CIS"):
