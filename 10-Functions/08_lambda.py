@@ -1,6 +1,6 @@
 '''
-Lambda function holo suto, ek line er anonymous function.
-Anonymous mane normally er kono nam thake na.
+A lambda function is a small, single-line anonymous function.
+Anonymous means it does not have a formal name defined by 'def'.
 '''
 square = lambda x: x * x
 print(square(5))
@@ -18,8 +18,8 @@ print(add(50, 20))
 Lambda syntax:
 lambda parameters: expression
 
-ex: lambda d: d * 2
-Lambda te return lage na.
+Example: lambda d: d * 2
+Lambda automatically returns the evaluated expression (no 'return' keyword needed).
 
 '''
 
@@ -39,9 +39,8 @@ print(subtract(20, 9))
 
 # sorted() + lambda
 '''
-sorted mane holo kono Iterable er jinish gula 
-ke sort kore notun list e return kora.
-key= use kore tuple er kon ongsho dekhe sort korbe seta bola hoy.
+sorted() sorts elements of an iterable and returns them in a new list.
+The 'key=' parameter specifies a function to extract the comparison key from each element.
 '''
 students = [
     ("Atul", 80),
@@ -72,9 +71,8 @@ print(check(9))
 
 
 '''
-map() bebohar kore ekti list/iterable er 
-protiti element er upore ekoi function chalano jay.
--> ekoi kaj list er prottek ta item er upore kore.
+map() applies a specified function to each item of an iterable (such as a list)
+and yields the results.
 '''
 
 numbers = [1, 2, 3, 4, 5]
@@ -85,7 +83,7 @@ for number in numbers:
 print(result)
 
 results = map(lambda x: x ** 2, numbers)
-print(result) # output shorashori list hobe na. Python ekti map object dey.
+print(result) # Output is not directly a list; Python returns a map object.
 
 result1 = list(
     map(lambda c: c **2, numbers)
@@ -242,4 +240,3 @@ result = sorted (
     key=lambda item: item[1], reverse=True
 )
 print(result)
-
