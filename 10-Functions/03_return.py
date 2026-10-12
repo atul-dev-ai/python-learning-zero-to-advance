@@ -1,11 +1,11 @@
-# return holo Function er result firiye deya
+# return sends back the result of a function
 def add(a, b):
     return a + b
 
 result = add(10, 20)
 print(result)
 
-# None mane holo function jodi kono value return na kore tahole default vabe None return kore.
+# If a function does not return any value, it returns None by default.
 def greet():
     print("Hello")
 
@@ -17,7 +17,7 @@ def test():
     return 
     print("B")
 test()
-# B print hobe na karon return pawar por function sekhanei sesh hoye jay.
+# "B" is not printed because the function terminates immediately after encountering return.
 
 def example():
     return 100
