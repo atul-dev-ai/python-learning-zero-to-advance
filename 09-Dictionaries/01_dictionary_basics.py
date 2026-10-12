@@ -1,8 +1,8 @@
 """
 A Dictionary stores data in KEY : VALUE pairs
 {} -> Dictionary
-:  -> Key ebong value alada kore
-,  -> Ekadhik item alada kore
+:  -> Separates key and value
+,  -> Separates multiple items
 """
 
 student = {
