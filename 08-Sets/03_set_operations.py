@@ -21,31 +21,27 @@ print(only_java)
 
 # symmetric difference
 # operator = ^, symmetric_difference
-"""elements je gula sudu ekti set e ache
-    kintu uboy set e common noy"""
+"""Elements that exist in only one of the sets, but not in both"""
 a = {1, 2, 3}
 b = {3, 4, 5}
 result = a ^ b
-print(result) # 3 badh jabe karon eti dui set ei ache
+print(result) # 3 is excluded because it exists in both sets
 
 # subset
 # operator = issubset(), variable <= variable
-"""ekti set er sob elements onno set
-    er moddhe thakle prothomti subset"""
+"""If all elements of a set exist in another set, the first set is a subset"""
 c = {1, 2}
 d = {1, 2, 3, 4}
 print(c.issubset(d))
 
 # superset
-"""ekti set onno set er \
-    sob elements dharon korle seti Superset"""
+"""If a set contains all elements of another set, it is a superset"""
 e = {1, 2, 3, 4}
 f = {1, 2}
 print(e.issuperset(f))
 
 # disjoint set
-"""duita set er moddhe kono common element na thakle
-    tara Disjoint"""
+"""If two sets have no common elements, they are disjoint"""
 g = {1, 2, 3}
 h = {4, 5, 6}
 print(g.isdisjoint(h))
@@ -53,8 +49,7 @@ print(g.isdisjoint(h))
 marks = [80, 90, 80, 70, 90, 60]
 unique_marks = set(marks)
 print(unique_marks) 
-"""Set e conver korle original list er 
-    order ba duplicate count songrokhito thake na"""
+"""Converting to a set does not preserve the original list's order or duplicate counts"""
 
 squares = {x ** 2 for x in range(1, 6)}
 print(squares)
