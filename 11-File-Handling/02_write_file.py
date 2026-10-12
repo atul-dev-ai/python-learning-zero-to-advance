@@ -3,7 +3,7 @@ file.write("Name: Atul\n")
 file.write("Department: CIS\n")
 file.write("University: DIU\n")
 
-file.close() # output terminal e dekhay na. txt e save hobe.
+file.close() # Output is saved to the text file, not shown in the terminal.
 
 '''
 The write() method writes text into a file.
