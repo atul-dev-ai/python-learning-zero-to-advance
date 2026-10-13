@@ -8,4 +8,5 @@ file.close() # In the traditional approach, we need to close the file manually a
 # with open()
 '''
 The with open() statement automatically closes the file when the 
-block finishes'''
+block finishes
+'''
