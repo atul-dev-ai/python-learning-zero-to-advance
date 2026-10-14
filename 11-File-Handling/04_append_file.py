@@ -10,3 +10,8 @@ with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling
     content = file.readlines()
     print(content)
 
+# student registration simple practice
+student_name = input("Enter Student Name: ")
+with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "a") as file:
+    file.write(student_name + "\n")
+print("Student added successfully!")
