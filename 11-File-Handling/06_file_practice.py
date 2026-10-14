@@ -18,7 +18,9 @@ with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling
     file.seek(0)
     file.write("Python")
 
+
 FILE_NAME = "/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt"
+
 def add_student():
     name = input("Enter student name: ")
 
@@ -31,21 +33,22 @@ def show_student():
     try:
         with open(FILE_NAME, "r") as file:
             students = file.readlines()
-        if len(students) == 0:
-            print("No students found")
+        if len(students == 0):
+            print("No students found.")
         else:
-            print("\nStudent List:")
+            print("\nStudent list:")
 
             for index, student in enumerate(students, start = 1):
                 print(f"{index}. {student.strip()}")
+
     except FileNotFoundError:
         print("No student file found yet.")
 
 while True:
     print("\n--- Student Record System ---")
     print("1. Add Student")
-    print("2. Show Student")
-    print("3. Exist")
+    print("2. Show Students")
+    print("3. Exit")
 
     choice = input("Choose an option: ")
 
@@ -54,7 +57,8 @@ while True:
     elif choice == "2":
         show_student()
     elif choice == "3":
-        print("Program closed")
+        print("Program Closed")
         break
     else:
-        print("Invalid choice. Try again.")
+        print("Invalid Choice. Please Try again.")
+    
