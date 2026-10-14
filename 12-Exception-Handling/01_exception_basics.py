@@ -23,3 +23,16 @@ try:
     print("Your value is:", number)
 except ValueError:
     print("Please enter a valid integer.")
+
+# finally
+try:
+    print("Program is running.")
+except Exception:
+    print("Something went wrong")
+finally:
+    '''
+    The finally block is commonly used for cleaup tasks that should run whether an
+    exception occurs or not.
+    '''
+    print("Program is finished.")
+
