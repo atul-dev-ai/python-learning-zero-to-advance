@@ -23,3 +23,21 @@ with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling
 ** with block sesh holei file nije thekei bondho hoye jay.
 '''
 
+# with open() 3 way te file read kora jay.
+# way 1 = read()
+with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+# way 2 = readline()
+with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "r") as file:
+    line = file.readline()
+    print(line)
+# Reads one line at a time. one call reads only the next available line.
+
+# way 3 = readlines()
+with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "r") as file:
+    lines = file.readlines()
+    print(lines)
+# Reads all lines and returns them as a list of strings.
+
