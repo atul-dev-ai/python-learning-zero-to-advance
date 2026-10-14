@@ -41,3 +41,9 @@ with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling
     print(lines)
 # Reads all lines and returns them as a list of strings.
 
+# with open is also use for write
+with open("/home/atul/Documents/python-learning-zero-to-advance/11-File-Handling/students.txt", "w") as file:
+    file.write("Atul\n")
+    file.write("Ankit Paul\n")
+    file.write("kk\n")
+# The 'W' mode creates the file if it does not exist and overrites its existing contents if it does.
