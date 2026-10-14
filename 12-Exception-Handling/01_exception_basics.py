@@ -16,3 +16,10 @@ try:
     print(result)
 except ZeroDivisionError:
     print("Cannot divide by zero.")
+
+# try & except with user input
+try:
+    number = int(input("Enter a number: "))
+    print("Your value is:", number)
+except ValueError:
+    print("Please enter a valid integer.")
