@@ -19,3 +19,11 @@ Once an exception occurs inside try, the remaining statements in
 that try block are skipped.
 '''
 
+
+try:
+    number = int(input("Enter a number: "))
+    print(100 / number)
+
+except (ValueError, ZeroDivisionError):
+    print("Invalid input or division by zero")
+
