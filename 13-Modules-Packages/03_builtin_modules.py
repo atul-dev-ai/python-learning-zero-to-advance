@@ -15,6 +15,7 @@ print(math.sqrt(64))
 print(math.pow(2, 3)) # 2**3
 
 # math.ceil()
-print(math.ceil(4.2)) # nijer soman ba boro nearest integer ane.
+print(math.ceil(4.2)) # nijer soman ba nearest big integer ane.
 
-#
+# math.floor()
+print(math.floor(4.9)) # nijer soman ba nearest small integer ane
