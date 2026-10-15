@@ -21,5 +21,7 @@ print(math.ceil(4.2)) # nijer soman ba nearest big integer ane.
 print(math.floor(4.9)) # nijer soman ba nearest small integer ane
 
 # math.factorial()
-print(math.factorial(5))
+print(math.factorial(5)) # 1*2*3*4*5
 
+# math.pi
+print(math.pi)
