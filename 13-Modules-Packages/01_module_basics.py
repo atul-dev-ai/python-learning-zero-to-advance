@@ -14,3 +14,10 @@ add - module er function
 (10, 5) module er arguments
 '''
 
+result = calculator.add(20, 199)
+print(result)
+
+# particular function import
+from calculator import add
+results = add(39, 11)
+print(results)
