@@ -21,3 +21,9 @@ print(result)
 from calculator import add
 results = add(39, 11)
 print(results)
+
+# using alias
+import calculator as calc
+
+resultss = calc.multiply(4, 29)
+print(resultss)
