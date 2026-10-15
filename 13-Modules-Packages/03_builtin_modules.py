@@ -12,4 +12,9 @@ print(math.sqrt(25)) # sqrt mane 25 er square root
 print(math.sqrt(64))
 
 # math.pow()
-print(math.pow(2, 3))
+print(math.pow(2, 3)) # 2**3
+
+# math.ceil()
+print(math.ceil(4.2)) # nijer soman ba boro nearest integer ane.
+
+#
