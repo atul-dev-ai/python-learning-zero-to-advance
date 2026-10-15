@@ -20,3 +20,6 @@ print(subtract(29, 18))
 import calculator as calc
 print(calc.add(10, 20))
 
+# alias of function
+from calculator import multiply as mul
+print(mul(4, 5))
