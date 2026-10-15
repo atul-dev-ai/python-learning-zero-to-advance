@@ -19,4 +19,31 @@ except InvalidAgeError as error:
 except ValueError:
     print("Please enter a valid integer.")
     
- 
+ # bank account
+class InsufficientBalanceError(Exception):
+     pass
+
+balance = 40000
+
+try:
+    amount = float(input("Enter withdrawal amount: "))
+    
+    if amount < 0:
+        raise ValueError("Amount must be positive")
+    
+    if amount > balance:
+        raise InsufficientBalanceError(
+            "You do not have enough balance in your account."
+        )
+    
+    balance -= amount
+    
+    print("Withdrawal successful")
+    print("Remaining balance:", balance)
+    
+except InsufficientBalanceError as error:
+    print("Transaction failed.", error)
+    
+except ValueError as error:
+    print("Invalid amount.", error)
+    
