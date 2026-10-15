@@ -40,3 +40,5 @@ import random
 number = random.randint(1, 10)
 # randint 1 and 10 duitai include kore.
 
+# random decimal number
+print(random.random())
