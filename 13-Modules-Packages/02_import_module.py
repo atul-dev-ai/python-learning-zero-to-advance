@@ -35,4 +35,6 @@ print(settings.app_name)
 print(settings.version)
 print(settings.is_active)
 
-#
+# direct variable import
+from settings import app_name
+print(app_name)
