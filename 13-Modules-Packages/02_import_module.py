@@ -15,3 +15,8 @@ from calculator import multiply, subtract, add
 print(add(10, 5))
 print(multiply(29, 18))
 print(subtract(29, 18))
+
+# way 3 - use of Alias (as)
+import calculator as calc
+print(calc.add(10, 20))
+
