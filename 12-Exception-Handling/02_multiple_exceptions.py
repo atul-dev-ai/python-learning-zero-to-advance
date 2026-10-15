@@ -1,3 +1,7 @@
+'''
+Python checks the exception handlers and executes the first matching "except" block.
+Once an exception occurs inside "try", the remaining statements in that "try" block are skipped.
+'''
 try:
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
@@ -11,19 +15,3 @@ except ValueError:
 
 except ZeroDivisionError:
     print("You cannot divide by zero.")
-
-'''
-Python checks the exception handlers and executes the 
-first matching except block.
-Once an exception occurs inside try, the remaining statements in 
-that try block are skipped.
-'''
-
-
-try:
-    number = int(input("Enter a number: "))
-    print(100 / number)
-
-except (ValueError, ZeroDivisionError):
-    print("Invalid input or division by zero")
-
