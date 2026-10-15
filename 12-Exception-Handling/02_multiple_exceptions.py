@@ -23,3 +23,11 @@ try:
     
 except (ValueError, ZeroDivisionError):
     print("Invalid input or division by zero!")
+
+# except Exception
+try:
+    numbers = int(input("enter a number: "))
+    print(10 / numbers)
+
+except Exception as error:
+    print("An error occurred:", error)
