@@ -29,3 +29,10 @@ from calculator import *
 print(add(39, 1))
 print(subtract(199, 201))
 
+# variable import from module
+import settings
+print(settings.app_name)
+print(settings.version)
+print(settings.is_active)
+
+#
