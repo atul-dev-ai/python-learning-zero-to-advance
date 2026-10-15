@@ -25,3 +25,9 @@ print(math.factorial(5)) # 1*2*3*4*5
 
 # math.pi
 print(math.pi)
+
+# Area of a circle
+radius = 7
+area = math.pi * pow(radius, 2)
+print(radius)
+print(area)
