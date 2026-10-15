@@ -22,4 +22,22 @@ try:
 except ValueError as error:
     print("Error:", error)
     
+# bank withdrawl
+balance = 5000
+try:
+    amount = float(input("Enter withdrawl amount: "))
     
+    if amount <= 0:
+        raise ValueError("Withdrawl amount must be positive.")
+    
+    if amount > balance:
+        raise ValueError("Insufficient balance.")
+    
+    balance = balance - amount
+    
+    print("Withdrawl successful.")
+    print("Remaining balance:", balance)
+    
+except ValueError as error:
+    print("Error:", error)
+
