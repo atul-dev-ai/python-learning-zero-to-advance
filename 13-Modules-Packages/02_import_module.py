@@ -23,3 +23,9 @@ print(calc.add(10, 20))
 # alias of function
 from calculator import multiply as mul
 print(mul(4, 5))
+
+# way 4 - from module import *
+from calculator import *
+print(add(39, 1))
+print(subtract(199, 201))
+
