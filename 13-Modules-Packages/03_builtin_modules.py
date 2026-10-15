@@ -9,3 +9,7 @@ functionality from scratch.
 import math
 print(math.sqrt(25)) # sqrt mane 25 er square root
 
+print(math.sqrt(64))
+
+# math.pow()
+print(math.pow(2, 3))
