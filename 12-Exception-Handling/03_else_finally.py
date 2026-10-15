@@ -32,3 +32,18 @@ except ValueError:
 finally:
     print("Program execution finished.")
     
+file = None
+try:
+    file = open(r"C:\Users\ADMIN\Documents\python-learning-zero-to-advance\12-Exception-Handling/students.txt", "r")
+    content = file.read()
+    print(content)
+    
+except FileNotFoundError:
+    print("Student file not found.")
+
+finally:
+    if file is not None:
+        file.close()
+    
+    print("File handling finished!")        
+    
