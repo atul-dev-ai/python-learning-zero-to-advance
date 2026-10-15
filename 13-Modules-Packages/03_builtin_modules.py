@@ -38,4 +38,5 @@ print(area)
 # random integer
 import random
 number = random.randint(1, 10)
+# randint 1 and 10 duitai include kore.
 
