@@ -71,3 +71,9 @@ print(cards)
 from datetime import datetime
 now = datetime.now()
 print(now)
+
+# only date
+from datetime import date
+
+todayy = date.today()
+print(todayy)
