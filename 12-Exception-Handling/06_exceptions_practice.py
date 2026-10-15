@@ -14,9 +14,9 @@ def divide_number():
         result = num1 / num2
         
     except ValueError:
-        print("Error: Please enter valid numbers.")
+        print("Error: Please enter valid numbers.") # like abs
         
-    except ZeroDivisionError:
+    except ZeroDivisionError: # if zero
         print("Error: Cannot divide by zero.")
         
     except InvalidNumberError as error:
