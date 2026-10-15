@@ -31,3 +31,6 @@ radius = 7
 area = math.pi * pow(radius, 2)
 print(radius)
 print(area)
+
+# we use "math.pi" for π and pow(radius, 2) to square the radius.
+# Multiplying them gives the circle's area.
