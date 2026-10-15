@@ -66,3 +66,8 @@ cards = [
 
 random.shuffle(cards)
 print(cards)
+
+# present time and date
+from datetime import datetime
+now = datetime.now()
+print(now)
