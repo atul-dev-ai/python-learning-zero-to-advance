@@ -8,3 +8,10 @@ print(result)
 from calculator import add
 result = add(100, 199)
 print(result)
+
+# multiple function import
+from calculator import multiply, subtract, add
+
+print(add(10, 5))
+print(multiply(29, 18))
+print(subtract(29, 18))
