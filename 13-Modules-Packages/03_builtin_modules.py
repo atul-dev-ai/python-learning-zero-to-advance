@@ -34,3 +34,8 @@ print(area)
 
 # we use "math.pi" for π and pow(radius, 2) to square the radius.
 # Multiplying them gives the circle's area.
+
+# random integer
+import random
+number = random.randint(1, 10)
+
