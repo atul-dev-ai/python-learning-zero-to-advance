@@ -54,3 +54,15 @@ names = [
 
 winner = random.choice(names)
 print("Selected:", winner)
+
+# list shuffle
+cards = [
+    "A",
+    "b",
+    "C",
+    "D",
+    "d"
+]
+
+random.shuffle(cards)
+print(cards)
