@@ -42,3 +42,15 @@ number = random.randint(1, 10)
 
 # random decimal number
 print(random.random())
+
+# select random item from List
+names = [
+    "atul",
+    "Ankit",
+    "Anik",
+    "Karim",
+    "Rahim"
+]
+
+winner = random.choice(names)
+print("Selected:", winner)
