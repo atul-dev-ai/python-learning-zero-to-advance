@@ -88,3 +88,24 @@ print("Day:", today.day)
 now = datetime.now()
 print(now.strftime("%d-%m-%y"))
 print(now.strftime("%I:%M %p"))
+
+# mini project -- Random math quiz
+number = random.randint(1, 10)
+print("\n== Math Quiz ==")
+print("Find the square of:", number)
+
+try:
+    answer = int(input("Your answer: "))
+    
+    correct_answer = math.pow(number, 2)
+    
+    if answer == correct_answer:
+        print("Correct answer.")
+        
+    else:
+        print("Wrong Answer.")
+        print("Correct Answer is:", int(correct_answer))
+        
+except ValueError:
+    print("Please enter a whole number.")
+
