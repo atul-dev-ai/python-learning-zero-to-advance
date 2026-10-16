@@ -77,3 +77,10 @@ from datetime import date
 
 todayy = date.today()
 print(todayy)
+
+# different portion of date
+today = date.today()
+print("Year:", today.year)
+print("Month:", today.month)
+print("Day:", today.day)
+
