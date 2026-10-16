@@ -1,4 +1,12 @@
 import requests
+'''
+- An API allows one software application to communicate with another application
+or server and exchange data.
+
+- JSON(JavaScript Object Notation) is a common format for exchanging structured data between applications.
+
+
+'''
 
 url = "https://jsonplaceholder.typicode.com/users/1"
 
