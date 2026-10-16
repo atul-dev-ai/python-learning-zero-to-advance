@@ -4,8 +4,6 @@ import requests
 or server and exchange data.
 
 - JSON(JavaScript Object Notation) is a common format for exchanging structured data between applications.
-
-
 '''
 
 url = "https://jsonplaceholder.typicode.com/users/1"
