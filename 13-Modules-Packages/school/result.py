@@ -7,3 +7,8 @@ def calculate_avg(marks):
     
     return sum(marks) / len(marks)
 
+def get_result(avg):
+    if avg >= 40:
+        return "Pass"
+    else:
+        return "Fail"
