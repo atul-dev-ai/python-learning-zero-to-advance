@@ -1,0 +1,9 @@
+def calculate_total(marks):
+    return sum(marks)
+
+def calculate_avg(marks):
+    if len(marks) == 0:
+        return 0
+    
+    return sum(marks) / len(marks)
+
