@@ -18,3 +18,8 @@ print(student_utils.greet_student(name))
 print(student_utils.calculate_total(marks))
 print(student_utils.calculate_average(marks))
 
+print(student_utils.university_name)
+
+import greetings
+import greetings
+greetings.say_hlw()
