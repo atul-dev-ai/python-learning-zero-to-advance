@@ -6,3 +6,5 @@ def calculate_total(marks):
 
 def calculate_average(marks):
     return sum(marks) / len(marks)
+
+university_name = "DIU"
