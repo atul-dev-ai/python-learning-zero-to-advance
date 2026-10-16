@@ -84,3 +84,7 @@ print("Year:", today.year)
 print("Month:", today.month)
 print("Day:", today.day)
 
+# date formatting - strftime()
+now = datetime.now()
+print(now.strftime("%d-%m-%y"))
+print(now.strftime("%I:%M %p"))
