@@ -36,3 +36,11 @@ print(Student2.name)
 
 print(Student1.university)
 print(Student2.university)
+
+Student.university = "Other university"
+print(Student1.university)
+
+Student1.university = "Another University"
+print(Student1.university)
+print(Student2.university)
+
