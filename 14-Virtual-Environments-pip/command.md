@@ -1,3 +1,42 @@
+## 🐧 Linux / macOS (Bash / Zsh)
+
+### 1. Folder e probesh kora
+cd 14-Virtual-Environments-pip
+
+### 2. Python version check
+python3 --version
+
+### 3. venv module install
+sudo apt update && sudo apt install python3-venv
+
+### 4. Virtual environment create kora
+python3 -m venv .venv
+# Linux e proyojon hole: sudo apt install python3-venv
+
+### 5. Environment active kora
+source .venv/bin/activate
+
+### 6. Package / Library install kora
+python3 -m pip install requests
+# ba environment active thakle shorashori:
+pip install requests
+
+### 7. Install kora package er list dekha
+pip list
+
+### 8. requirements.txt file create kora
+pip freeze > requirements.txt
+
+### 9. Environment deactivate kora
+deactivate
+
+---
+
+## Extra: requirements.txt theke sob install kora
+pip install -r requirements.txt
+
+---
+
 # Virtual Environment & Pip Commands Guide
 
 ## Windows (PowerShell / Command Prompt)
@@ -33,39 +72,3 @@ python -m pip freeze > requirements.txt
 
 ### 8. Environment deactivate kora
 deactivate
-
----
-
-## Linux / macOS (Bash / Zsh)
-
-### 1. Folder e probesh kora
-cd 14-Virtual-Environments-pip
-
-### 2. Python version check
-python3 --version
-
-### 3. Virtual environment create kora
-python3 -m venv .venv
-# Linux e proyojon hole: sudo apt install python3-venv
-
-### 4. Environment active kora
-source .venv/bin/activate
-
-### 5. Package / Library install kora
-python3 -m pip install requests
-# ba environment active thakle shorashori:
-pip install requests
-
-### 6. Install kora package er list dekha
-pip list
-
-### 7. requirements.txt file create kora
-pip freeze > requirements.txt
-
-### 8. Environment deactivate kora
-deactivate
-
----
-
-## Extra: requirements.txt theke sob install kora
-pip install -r requirements.txt
