@@ -87,3 +87,20 @@ The super() function allows a child class to access methods
 defined in its parent class, commonly to 
 reuse the parent's constructor.
 '''
+# without super()
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+class student(person):
+    def __init__(self, name, age, student_id):
+        self.name = name
+        self.age = age
+        self.student_id = student_id
+
+student1 = student("Atul", 21, "ST123")
+print(student1.name)
+print(student1.age)
+print(student1.student_id)
+
