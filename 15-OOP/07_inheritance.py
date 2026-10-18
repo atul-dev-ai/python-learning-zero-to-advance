@@ -17,7 +17,10 @@ dog1 = Dog()
 dog1.eat()
 dog1.bark()
 
-
+'''
+Inheritance reduces code duplication by allowing related classes to share
+common attributes and methods.
+'''
 
 class Person:
     def __init__(self, name, email):
@@ -49,3 +52,5 @@ print("----------")
 
 teacher1.show_info()
 teacher1.teach()
+
+
