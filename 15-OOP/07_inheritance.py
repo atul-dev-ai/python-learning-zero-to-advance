@@ -79,3 +79,11 @@ cat1 = Cat()
 Animal1.sound()
 dog1.sound()
 cat1.sound()
+
+
+# super()
+'''
+The super() function allows a child class to access methods 
+defined in its parent class, commonly to 
+reuse the parent's constructor.
+'''
