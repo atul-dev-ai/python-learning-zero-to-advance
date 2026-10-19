@@ -45,3 +45,28 @@ student.marks = 95
 print("Updated marks:", student.marks)
 
 student.marks = 150
+
+
+# bank account
+class BankAccount:
+    def __init__(self, balance):
+        self.balance = balance
+
+    @property
+    def balance(self):
+        return self._balance
+
+    @balance.setter
+    def balance(self, amount):
+        if amount < 0:
+            raise ValueError("Balance cannot be negative")
+
+        self._balance = amount
+
+
+account = BankAccount(5000)
+
+print(account.balance)
+
+account.balance = 7000
+print(account.balance)
