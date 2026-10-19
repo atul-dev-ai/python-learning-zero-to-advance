@@ -1,76 +1,57 @@
-class Student:
-    def __init__(self, name, student_id, marks):
-        self.name = name
-        self.student_id = student_id
-        self.__marks = marks
-        self.marks = marks
 
-    @property
-    def marks(self):
-        return self.__marks.copy()
+from student import Student
+from manager import StudentManager
 
-    @marks.setter
-    def marks(self, new_marks):
-        if not isinstance(new_marks, list):
-            raise TypeError("Marks must be a list")
 
-        for mark in new_marks:
-            if not isinstance(mark, (int, float)) or isinstance(mark, bool):
-                raise TypeError("Each mark must be a number")
+manager = StudentManager()
 
-            if not 0 <= mark <= 100:
-                raise ValueError("Marks must be between 0 and 100")
+while True:
+    print("\n===== Student Management System =====")
+    print("1. Add Student")
+    print("2. Show All Students")
+    print("3. Search Student")
+    print("4. Exit")
 
-        self.__marks = new_marks.copy()
+    choice = input("Enter your choice: ")
 
-    def calculate_total(self):
-        return sum(self.__marks)
+    if choice == "1":
+        name = input("Enter name: ").strip()
+        student_id = input("Enter student ID: ").strip()
 
-    def calculate_average(self):
-        if not self.__marks:
-            return 0
+        try:
+            marks_text = input(
+                "Enter marks separated by commas: "
+            )
+            marks = [
+                float(mark.strip())
+                for mark in marks_text.split(",")
+            ]
 
-        return self.calculate_total() / len(self.__marks)
+            if not name or not student_id:
+                print("Name and student ID cannot be empty.")
+                continue
 
-    def get_grade(self):
-        average = self.calculate_average()
+            student = Student(name, student_id, marks)
+            manager.add_student(student)
 
-        if average >= 80:
-            return "A"
-        elif average >= 70:
-            return "B"
-        elif average >= 60:
-            return "C"
-        elif average >= 40:
-            return "D"
+        except (ValueError, TypeError) as error:
+            print("Invalid input:", error)
+
+    elif choice == "2":
+        manager.show_all_students()
+
+    elif choice == "3":
+        student_id = input("Enter student ID: ").strip()
+        student = manager.find_student(student_id)
+
+        if student:
+            student.show_info()
         else:
-            return "F"
+            print("Student not found.")
 
-    def to_dict(self):
-        return {
-            "name": self.name,
-            "student_id": self.student_id,
-            "marks": self.marks
-        }
+    elif choice == "4":
+        print("Program closed.")
+        break
 
-    @classmethod
-    def from_dict(cls, data):
-        return cls(
-            data["name"],
-            data["student_name"],
-            data["marks"]
-        )
-
-    def show_info(self):
-        print("Name:", self.name)
-        print("Student ID:", self.student_id)
-        print("Marks:", self.marks)
-        print("Total:", self.calculate_total())
-        print("Average:", self.calculate_average())
-        print("Grade:", self.get_grade())
-
-    '''
-    To_dict() converts student information into a dictionary, 
-    while from_dict() reconstructs a Student object from that dictionary.
-    '''
-    
+    else:
+        print("Invalid choice. Try again.")
