@@ -73,3 +73,8 @@ process_payment(bkash, 3000)
 process_payment(card, 1000)
 process_payment(bank, 2000)
 
+
+# builting polymorphism
+print(len("Python"))
+print(len([20, 10, 30]))
+print(len({"Name:": "Atul Paul", "Age": 21}))
