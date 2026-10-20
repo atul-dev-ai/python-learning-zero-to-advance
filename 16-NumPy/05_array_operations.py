@@ -62,6 +62,6 @@ print("Count:", np.size(marks))
 Standard deviation and variance measure how spread out 
 the data values are around their mean.
 '''
-print(np.std(marks))
-print(np.var(marks))
-print(np.median(marks))
+print("Standard Deviation:",np.std(marks))
+print("Variance:",np.var(marks))
+print("Median:",np.median(marks))
