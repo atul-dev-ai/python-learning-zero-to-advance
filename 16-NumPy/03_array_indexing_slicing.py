@@ -55,3 +55,6 @@ print(matrix[2, 1])
 
 # full row 
 print(matrix[1])
+
+# one column 
+print(matrix[:, 1]) # : mane sob row, 1 mane column index 1
