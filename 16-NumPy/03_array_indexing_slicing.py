@@ -31,3 +31,7 @@ print(numbers[::2])
 
 # array reverse 
 print(numbers[::-2])
+
+# element update
+numbers[1] = 90 # index 1
+print(numbers)
