@@ -7,3 +7,13 @@ import numpy as np
 
 number = np.random.randint(1, 7)
 print(number)
+# randint(low, high) low included kinto high included na
+
+# multiple random number 
+numbers = np.random.randint(1, 101, size = 5)
+print(numbers)
+
+# two dimensional array
+numbers = np.random.randint(1, 11, size = (3, 4))
+print(numbers)
+print(numbers.shape)
