@@ -7,3 +7,4 @@ import numpy as np
 
 number = np.random.randint(1, 7)
 print(number)
+# randint(low, high) low included kinto high included na
