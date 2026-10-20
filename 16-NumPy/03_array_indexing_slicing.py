@@ -17,4 +17,8 @@ index, stop indexing and optional step.
 - stop: N index will stop at, but the element of this index will not be taken.
 - step: How many houses will be taken consecutively.
 '''
+# start:end
 print(numbers[1:4])
+
+# without start 
+print(numbers[:3])
