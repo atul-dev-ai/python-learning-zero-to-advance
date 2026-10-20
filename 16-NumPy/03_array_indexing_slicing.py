@@ -47,3 +47,9 @@ matrix = np.array([
     [70, 80, 90]
 ])
 print(matrix)
+
+# two dimensional array indexing
+print(matrix[0, 0])
+print(matrix[1, 2])
+print(matrix[2, 1])
+
