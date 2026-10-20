@@ -44,3 +44,6 @@ print(matrixs)
 # np.ones()
 numbers = np.ones(5)
 print(numbers)
+
+matrix = np.ones((2, 3))
+print(matrix)
