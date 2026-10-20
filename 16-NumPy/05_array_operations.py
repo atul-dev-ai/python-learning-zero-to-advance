@@ -35,5 +35,9 @@ based on a Boolean condition.
 '''
 result = marks[marks > 60]
 print(result)
+
 result = marks[(marks >= 50) & (marks < 90)]
+print(result)
+
+result = marks[(marks < 50) | (marks > 80)]
 print(result)
