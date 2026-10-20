@@ -18,3 +18,9 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
+
+# comparison operations
+'''
+Comparison operations compare array elements and 
+return Boolean values: True or False
+'''
