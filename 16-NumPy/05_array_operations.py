@@ -41,3 +41,9 @@ print(result)
 
 result = marks[(marks < 50) | (marks > 80)]
 print(result)
+
+
+# np.where()
+marks = np.array([25, 45, 70, 35, 90])
+results = np.where(marks >= 40, "Pass", "Fail")
+print(results)
