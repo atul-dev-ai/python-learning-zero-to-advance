@@ -53,3 +53,8 @@ print(results)
 An aggregation function summaries multiple values into a result, 
 such as their sum, mean, minimum or maximum.
 '''
+print("Total:", np.sum(marks))
+print("Average:", np.mean(marks))
+print("Highest:", np.max(marks))
+print("Lowest:", np.min(marks))
+print("Count:", np.size(marks))
