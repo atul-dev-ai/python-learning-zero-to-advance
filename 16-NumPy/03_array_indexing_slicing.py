@@ -28,3 +28,6 @@ print(numbers[2:])
 
 # use step only
 print(numbers[::2])
+
+# array reverse 
+print(numbers[::-2])
