@@ -56,3 +56,6 @@ using a specified step size.
 numbers = np.arange(1, 10, 2)
 print(numbers) # (start, stop, step)
 
+# np.linspace
+numbers = np.linspace(0, 10, 5)
+print(numbers)
