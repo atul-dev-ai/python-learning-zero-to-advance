@@ -5,5 +5,5 @@ games and machine learning.
 '''
 import numpy as np
 
-number = np.random(1, 7)
+number = np.random.randint(1, 7)
 print(number)
