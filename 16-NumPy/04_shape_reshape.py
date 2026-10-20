@@ -15,3 +15,10 @@ matrix = np.array([
 
 # two dimensional array shape
 print(matrix.shape)
+
+# Reshape
+'''
+The reshape() method changes the dimensions of an array without changing its elements, 
+provided the new shape is compatible with the number of elemtns.
+'''
+
