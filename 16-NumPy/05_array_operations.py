@@ -48,8 +48,3 @@ marks = np.array([25, 45, 70, 35, 90])
 results = np.where(marks >= 40, "Pass", "Fail")
 print(results)
 # (condition, value_if_true, value_if_false)
-
-'''
-An aggregation function summaries multiple values into a result, 
-such as their sum, mean, minimum or maximum.
-'''
