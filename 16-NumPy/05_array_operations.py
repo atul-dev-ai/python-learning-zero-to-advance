@@ -65,3 +65,17 @@ the data values are around their mean.
 print("Standard Deviation:",np.std(marks))
 print("Variance:",np.var(marks))
 print("Median:",np.median(marks))
+
+# 2d and axis 
+marks = np.array([
+    [80, 70, 90],
+    [60, 85, 75],
+    [90, 95, 85]
+])
+
+student_totals = np.sum(marks, axis = 1)
+print(student_totals)
+print(np.mean(marks, axis= 1))
+print(np.max(marks, axis = 1))
+student_totals = np.sum(marks, axis = 0)
+print(student_totals)
