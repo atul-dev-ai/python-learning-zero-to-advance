@@ -10,3 +10,10 @@ NumPy = Numerical Python
 numbers = [10, 20, 30, 40]
 print(numbers)
 
+# with NumPy
+import numpy as np
+number = np.array([10, 20, 30, 40])
+
+result = number + 5
+print("Result of NumPy array:", result)
+print(type(result))
