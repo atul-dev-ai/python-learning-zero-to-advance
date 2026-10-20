@@ -53,3 +53,5 @@ print(matrix[0, 0])
 print(matrix[1, 2])
 print(matrix[2, 1])
 
+# full row 
+print(matrix[1])
