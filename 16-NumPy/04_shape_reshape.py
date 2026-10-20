@@ -57,5 +57,9 @@ numbers = np.arange(1, 10, 2)
 print(numbers) # (start, stop, step)
 
 # np.linspace
+'''
+np.linspace() generates a specified numbers of evenly spaced between 
+a start and stop value.
+'''
 numbers = np.linspace(0, 10, 5)
 print(numbers)
