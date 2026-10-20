@@ -33,5 +33,9 @@ print(numbers[::2])
 print(numbers[::-2])
 
 # element update
-numbers[1] = 90 # index 1
+numbers[1] = 90 # index 1 / elemnt 2
+print(numbers)
+
+# element update using slicing
+numbers[2:3] = [70, 100]
 print(numbers)
