@@ -53,3 +53,6 @@ print(matrix)
 np.arange() returns evenly spaced values within a given interval, 
 using a specified step size.
 '''
+numbers = np.arange(1, 10, 2)
+print(numbers) # (start, stop, step)
+
