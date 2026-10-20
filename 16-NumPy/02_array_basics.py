@@ -7,3 +7,6 @@ print(numbers)
 # check array type 
 print(type(numbers))
 
+# check numbers of elements
+print(numbers.size)
+
