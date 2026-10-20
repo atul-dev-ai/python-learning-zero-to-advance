@@ -37,5 +37,13 @@ numbers[1] = 90 # index 1 / elemnt 2
 print(numbers)
 
 # element update using slicing
-numbers[2:3] = [70, 100]
+numbers[1:3] = [70, 100]
 print(numbers)
+
+# two dimensional array
+matrix = np.array([
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+])
+print(matrix)
