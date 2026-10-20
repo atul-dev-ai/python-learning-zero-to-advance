@@ -22,3 +22,6 @@ print(numbers[1:4])
 
 # without start 
 print(numbers[:3])
+
+# without end 
+print(numbers[2:])
