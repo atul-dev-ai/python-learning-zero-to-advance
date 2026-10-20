@@ -10,3 +10,5 @@ print(type(numbers))
 # check numbers of elements
 print(numbers.size)
 
+# check array dimensions
+print(numbers.ndim)
