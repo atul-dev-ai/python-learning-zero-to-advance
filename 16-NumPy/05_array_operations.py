@@ -28,3 +28,10 @@ marks = np.array([35, 50, 65, 80, 95])
 print(marks > 60)
 print(marks < 50)
 print(marks == 80)
+
+'''
+Boolean masking selects array elements 
+based on a Boolean condition.
+'''
+result = marks[marks > 60]
+print(result)
