@@ -32,4 +32,11 @@ matrixs = reshapes.reshape(3, 4)
 print(matrixs)
 print(matrixs.shape)
 
+print(matrixs.reshape(-1))
 
+# np.zeros()
+numbers = np.zeros(5)
+print(numbers)
+# np.zeros() creates an array filled with zeros 
+matrixs = np.zeros((2, 3))
+print(matrixs)
