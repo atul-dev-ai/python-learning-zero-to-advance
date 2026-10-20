@@ -12,3 +12,6 @@ print(numbers.size)
 
 # check array dimensions
 print(numbers.ndim)
+
+# check array shape 
+print(numbers.shape)
