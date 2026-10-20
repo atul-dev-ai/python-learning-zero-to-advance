@@ -25,3 +25,6 @@ print(numbers[:3])
 
 # without end 
 print(numbers[2:])
+
+# use step only
+print(numbers[::2])
