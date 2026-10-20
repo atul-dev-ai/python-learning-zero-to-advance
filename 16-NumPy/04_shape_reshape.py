@@ -47,3 +47,9 @@ print(numbers)
 
 matrix = np.ones((2, 3))
 print(matrix)
+
+# np.arange 
+'''
+np.arange() returns evenly spaced values within a given interval, 
+using a specified step size.
+'''
