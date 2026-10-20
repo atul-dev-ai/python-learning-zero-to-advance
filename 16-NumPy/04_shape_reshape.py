@@ -22,3 +22,14 @@ The reshape() method changes the dimensions of an array without changing its ele
 provided the new shape is compatible with the number of elemtns.
 '''
 
+reshapes = np.array([
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+])
+
+matrixs = reshapes.reshape(3, 4) 
+# row - column
+
+print(matrixs)
+print(matrixs.shape)
+
+
