@@ -9,3 +9,12 @@ numbers = np.array([10, 20, 30, 40, 50])
 print(numbers[0])
 print(numbers[4])
 print(numbers[-1])
+
+'''
+Slicing extracts a portion of an array using a start 
+index, stop indexing and optional step.
+- start: N index will start from.
+- stop: N index will stop at, but the element of this index will not be taken.
+- step: How many houses will be taken consecutively.
+'''
+print(numbers[1:4])
