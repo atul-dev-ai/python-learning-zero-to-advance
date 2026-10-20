@@ -25,3 +25,6 @@ print("Total:", np.sum(marks))
 
 # calculate average
 print("Average:", np.mean(marks))
+
+# calculate highest
+print("Highest:", np.max(marks))
