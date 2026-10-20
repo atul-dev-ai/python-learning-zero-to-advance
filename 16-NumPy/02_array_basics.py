@@ -22,3 +22,6 @@ print(numbers.shape)
 marks = np.array([70, 80, 90, 60, 100])
 # calculate sum 
 print("Total:", np.sum(marks))
+
+# calculate average
+print("Average:", np.mean(marks))
