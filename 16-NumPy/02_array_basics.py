@@ -18,8 +18,10 @@ print(numbers.shape)
 
 # ndarray = N-dimensional array
 
+
 # one dimensional array
 marks = np.array([70, 80, 90, 60, 100])
+
 # calculate sum 
 print("Total:", np.sum(marks))
 
