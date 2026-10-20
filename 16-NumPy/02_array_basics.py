@@ -28,3 +28,6 @@ print("Average:", np.mean(marks))
 
 # calculate highest
 print("Highest:", np.max(marks))
+
+# calculate lowest
+print("Lowest:", np.min(marks))
