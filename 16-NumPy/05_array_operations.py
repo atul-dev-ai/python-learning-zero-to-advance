@@ -24,3 +24,7 @@ print(a / b)
 Comparison operations compare array elements and 
 return Boolean values: True or False
 '''
+marks = np.array([35, 50, 65, 80, 95])
+print(marks > 60)
+print(marks < 50)
+print(marks == 80)
