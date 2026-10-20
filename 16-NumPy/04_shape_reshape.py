@@ -40,3 +40,7 @@ print(numbers)
 # np.zeros() creates an array filled with zeros 
 matrixs = np.zeros((2, 3))
 print(matrixs)
+
+# np.ones()
+numbers = np.ones(5)
+print(numbers)
