@@ -22,3 +22,5 @@ print(b)
 print(a + b)
 print(a - b)
 
+# element wise multiplication
+print(a * b)
