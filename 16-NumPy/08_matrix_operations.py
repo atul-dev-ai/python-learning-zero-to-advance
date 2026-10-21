@@ -31,3 +31,8 @@ print(a * b)
 # (m * k) * (k * n)
 print(a @ b.T)
 print(a.T @ b)
+
+# transpose of a
+print("Transpose of a:", a.T)
+print("Original shape:", a.shape)
+print("Transpose shape of a:", a.T.shape)
