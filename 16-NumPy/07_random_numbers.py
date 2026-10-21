@@ -50,3 +50,7 @@ print("Dice:", dice)
 marks = rng.integers(0, 101, size = 5)
 print("Marks:", marks)
 
+# 3. Three random decimal numbers from 10 to 20
+prices = rng.uniform(10, 20, size = 3)
+print("Prices:", prices)
+
