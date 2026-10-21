@@ -20,5 +20,5 @@ print(result)
 print(np.concatenate((A,B), axis = 0))
 # axis = 0 mane row borabor jokto kora.
 print(np.concatenate((a, b), axis = 0))
-
+# axis = 1
 print(np.concatenate((A, B), axis = 1))
