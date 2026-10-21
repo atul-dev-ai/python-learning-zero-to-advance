@@ -45,3 +45,8 @@ print(rng2.integers(1, 101, size = 5))
 # 1. One random integer from 1 to 6
 dice = rng.integers(1, 7)
 print("Dice:", dice)
+
+# 2. Five random marks from 0 to 100
+marks = rng.integers(0, 101, size = 5)
+print("Marks:", marks)
+
