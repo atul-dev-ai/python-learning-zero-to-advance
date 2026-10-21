@@ -33,3 +33,9 @@ print(result.shape)
 # Horizonal stacking comines arrays horizontally.
 result = np.hstack((a, b))
 print(result)
+
+# np.split()
+# Splitting divides an array into multiple sub-arrays
+numbers = np.array([10, 20, 30, 40, 50, 60])
+parts = np.split(numbers, 3)
+print(parts)
