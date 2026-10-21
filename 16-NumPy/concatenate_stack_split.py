@@ -18,3 +18,7 @@ print(result)
 
 # using axis
 print(np.concatenate((A,B), axis = 0))
+# axis = 0 mane row borabor jokto kora.
+print(np.concatenate((a, b), axis = 0))
+
+print(np.concatenate((A, B), axis = 1))
