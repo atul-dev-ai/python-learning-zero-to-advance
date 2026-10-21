@@ -24,6 +24,7 @@ print(np.concatenate((a, b), axis = 0))
 print(np.concatenate((A, B), axis = 1))
 
 # np.vstack() - Vertical stacking
+# Vertical stacking comines arrays vertically, adding rows.
 result = np.vstack((a, b))
 print(result)
 print(result.shape)
