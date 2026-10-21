@@ -9,13 +9,14 @@ a = np.array([
 ])
 
 print(a)
-print("Shape:", a.shape)
+print("Shape of a:", a.shape)
 print(type(a))
 
 b = np.array([
     [7, 8, 9],
     [10, 11, 12]
 ])
+print("Shape of b:", b.shape)
 
 # matrix addition & subtraction
 print(b)
@@ -26,5 +27,6 @@ print(a - b)
 print(a * b)
 
 # matrix multiplication with transpose
+# (m * k) * (k * n)
 print(a @ b.T)
 print(a.T @ b)
