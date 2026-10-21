@@ -35,3 +35,13 @@ rng = np.random.default_rng(42)
 numbers = rng.integers(1, 101, size = 5)
 
 print(numbers)
+
+rng1 = np.random.default_rng(42)
+rng2 = np.random.default_rng(42)
+
+print(rng1.integers(1, 101, size = 5))
+print(rng2.integers(1, 101, size = 5))
+
+# 1. One random integer from 1 to 6
+dice = rng.integers(1, 7)
+print("Dice:", dice)
