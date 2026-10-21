@@ -37,6 +37,16 @@ print("Transpose of a:", a.T)
 print("Original shape:", a.shape)
 print("Transpose shape of a:", a.T.shape)
 
+A = np.array([
+    [1, 2],
+    [3, 4]
+])
+
+B = np.array([
+    [5, 6],
+    [7, 8]
+])
+
 # np.dot
-print(np.dot(a.T, b))
-print(a.T @ b)
+print(np.dot(A, B))
+print(A @ B)
