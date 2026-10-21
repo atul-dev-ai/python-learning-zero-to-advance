@@ -17,3 +17,16 @@ print(numbers)
 numbers = np.random.randint(1, 11, size = (3, 4))
 print(numbers)
 print(numbers.shape)
+
+numbers = np.random.uniform(10, 20, size=5)
+print(numbers)
+# uniform() = decimal number 
+
+# np.random.normal() - normal distribution
+numbers = np.random.normal(
+    loc = 50, # distribution er mean
+    scale = 10, # standard deviation
+    size = 5
+)
+print(numbers)
+
