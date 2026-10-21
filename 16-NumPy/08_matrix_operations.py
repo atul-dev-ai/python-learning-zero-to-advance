@@ -25,6 +25,6 @@ print(a - b)
 # element wise multiplication
 print(a * b)
 
-# matrix multiplication
+# matrix multiplication with transpose
 print(a @ b.T)
 print(a.T @ b)
