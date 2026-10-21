@@ -28,3 +28,8 @@ print(np.concatenate((A, B), axis = 1))
 result = np.vstack((a, b))
 print(result)
 print(result.shape)
+
+# np.hstack() - Horizontal stacking
+# Horizonal stacking comines arrays horizontally.
+result = np.hstack((a, b))
+print(result)
