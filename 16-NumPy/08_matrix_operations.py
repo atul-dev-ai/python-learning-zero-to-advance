@@ -24,3 +24,7 @@ print(a - b)
 
 # element wise multiplication
 print(a * b)
+
+# matrix multiplication
+print(a @ b.T)
+print(a.T @ b)
