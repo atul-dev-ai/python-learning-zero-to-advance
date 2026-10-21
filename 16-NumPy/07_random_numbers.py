@@ -30,3 +30,8 @@ numbers = np.random.normal(
 )
 print(numbers)
 
+# np.random.default_rng()
+rng = np.random.default_rng(42)
+numbers = rng.integers(1, 101, size = 5)
+
+print(numbers)
