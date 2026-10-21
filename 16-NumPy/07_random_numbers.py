@@ -54,3 +54,9 @@ print("Marks:", marks)
 prices = rng.uniform(10, 20, size = 3)
 print("Prices:", prices)
 
+# 4. Four random numbers from a normal distribution
+values = rng.normal(
+    loc = 50,
+    scale = 10, size = 4
+)
+print("Normal Values:", values)
