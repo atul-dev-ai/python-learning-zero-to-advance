@@ -36,3 +36,7 @@ print(a.T @ b)
 print("Transpose of a:", a.T)
 print("Original shape:", a.shape)
 print("Transpose shape of a:", a.T.shape)
+
+# np.dot
+print(np.dot(a.T, b))
+print(a.T @ b)
