@@ -27,6 +27,7 @@ print(a - b)
 print(a * b)
 
 # matrix multiplication with transpose
+# The transpose of a matrix swaps its rows and columns
 # (m * k) * (k * n)
 print(a @ b.T)
 print(a.T @ b)
