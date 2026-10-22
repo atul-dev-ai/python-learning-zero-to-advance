@@ -15,4 +15,5 @@ d = np.array(["Python", "NumPy", "Pandas"])
 print(a.dtype)
 print(b.dtype)
 print(c.dtype)
-print(d.dtype)
+print(d.dtype) # <U6 = Unicode string type
+
