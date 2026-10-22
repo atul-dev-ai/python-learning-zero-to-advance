@@ -52,3 +52,12 @@ index = np.argmin(result)
 print(index)
 print(result[index])
 print(result)
+
+# np.argsort()
+print(numbers)
+print(result)
+print(np.sort(numbers))
+print(np.argsort(numbers))
+# sort and argsort of unique values
+print(np.sort(result))
+print(np.argsort(result))
