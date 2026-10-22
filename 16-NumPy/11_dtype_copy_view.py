@@ -34,6 +34,7 @@ whole_prices = prices.astype(int)
 print(whole_prices)
 print("Data type of prices:", prices.dtype)
 print("Data type of whole_prices:", whole_prices.dtype)
+# int to bool
 result = numbers.astype(bool)
 print(numbers)
 print(numbers.dtype)
