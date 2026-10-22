@@ -32,3 +32,11 @@ print(a.reshape(1, 6))
 result = matrix.reshape(-1)
 print(result)
 print(result.shape)
+
+# flatten() returns a one dimensional copy of the array.
+flat = matrix.flatten()
+print(flat)
+flat[0] = 999
+print("Flattened:", flat)
+print(flat.shape)
+print("Original:", matrix)
