@@ -61,3 +61,17 @@ print(np.argsort(numbers))
 # sort and argsort of unique values
 print(np.sort(result))
 print(np.argsort(result))
+
+indices = np.argsort(numbers)
+print(numbers[indices])
+
+marks = np.array([75, 92, 68, 92])
+
+# practice
+print("Sorted marks:", np.sort(marks))
+print("Unique Marks:", np.unique(marks))
+print("Highest Marks:", np.max(marks))
+print("Highest mark index:", np.argmax(marks))
+print("Sorting indexes:", np.argsort(marks))
+print("Lowest marks:", np.min(marks))
+print("Lowest mark indexes:", np.argmin(marks))
