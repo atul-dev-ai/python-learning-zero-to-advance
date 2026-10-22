@@ -2,7 +2,7 @@ import numpy as np
 # dtype specifies the data type of the elements sorted in NumPy array
 
 # dtype
-numbers = np.array([10, 20, 30, 40])
+numbers = np.array([10, 20, 30, 40, 0])
 print(numbers)
 print(numbers.dtype)
 
@@ -35,6 +35,11 @@ print(whole_prices)
 print("Data type of prices:", prices.dtype)
 print("Data type of whole_prices:", whole_prices.dtype)
 # int to bool
-result = numbers.astype(bool)
-print(numbers)
-print(numbers.dtype)
+int_to_bool = numbers.astype(bool)
+print(int_to_bool)
+print(int_to_bool.dtype)
+
+# float to bool
+flt_to_bl = marks.astype(bool)
+print(flt_to_bl)
+print(flt_to_bl.dtype)
