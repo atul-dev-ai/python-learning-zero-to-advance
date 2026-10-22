@@ -62,3 +62,8 @@ viewed = original.view()
 viewed[0] = 111
 print("Original:", original)
 print("Viewed:", viewed)
+
+part = original[1:4].copy()
+part[0] = 999
+print("Original:", original)
+print("Part:", part)
