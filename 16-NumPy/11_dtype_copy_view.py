@@ -27,3 +27,13 @@ print(marks.dtype)
 decimal_numbers = numbers.astype(float)
 print(decimal_numbers)
 print(decimal_numbers.dtype)
+
+# float to integer
+prices = np.array([10.9, 20.5, 30.8])
+whole_prices = prices.astype(int)
+print(whole_prices)
+print("Data type of prices:", prices.dtype)
+print("Data type of whole_prices:", whole_prices.dtype)
+result = numbers.astype(bool)
+print(numbers)
+print(numbers.dtype)
