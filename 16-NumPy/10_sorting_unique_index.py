@@ -29,3 +29,15 @@ print(result)
 values, counts = np.unique(numbers, return_counts=True)
 print("Values:", values)
 print("Counts:", counts)
+
+
+# np.argmax()
+# np.argmax() returns the index of the maximum value.
+index = np.argmax(numbers)
+print(index)
+print(numbers[index])
+
+index = np.argmax(result)
+print(index)
+print(result[index])
+print(result)
