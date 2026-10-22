@@ -17,3 +17,11 @@ matrix = np.array([
 ])
 # 2d array sorting
 print(np.sort(matrix, axis = 1))
+print(np.sort(matrix, axis = 0))
+
+
+# np.unique()
+# np.unique() returns the distinct values in an array, in sorted order by default
+numbers = np.array([10, 20, 30, 10, 20, 40, 30, 50, 60, 40, 70])
+result = np.unique(numbers)
+print(result)
