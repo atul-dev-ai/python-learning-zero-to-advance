@@ -45,9 +45,20 @@ print(flt_to_bl)
 print(flt_to_bl.dtype)
 
 # copy()
-original = np.array([10, 20, 30])
+original = np.array([10, 20, 30, 40])
 copied = original.copy()
 copied[0] = 999
 
 print("Original:", original)
 print("Copied:", copied)
+
+
+# View()
+'''
+A view provides a different way to access the same underlying array 
+array data without making an independent copy.
+'''
+viewed = original.view()
+viewed[0] = 111
+print("Original:", original)
+print("Viewed:", viewed)
