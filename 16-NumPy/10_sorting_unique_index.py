@@ -6,3 +6,6 @@ result = np.sort(numbers)
 
 print(result)
 print(numbers)
+
+result = np.sort(numbers) [::-1]
+print(result)
