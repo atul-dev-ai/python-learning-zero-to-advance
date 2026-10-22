@@ -25,3 +25,7 @@ print(np.sort(matrix, axis = 0))
 numbers = np.array([10, 20, 30, 10, 20, 40, 30, 50, 60, 40, 70])
 result = np.unique(numbers)
 print(result)
+
+values, counts = np.unique(numbers, return_counts=True)
+print("Values:", values)
+print("Counts:", counts)
