@@ -27,3 +27,8 @@ print(reshape_a.shape)
 print(a.reshape(3, 2))
 print(a.reshape(6, 1))
 print(a.reshape(1, 6))
+
+# reshape(-1)
+result = matrix.reshape(-1)
+print(result)
+print(result.shape)
