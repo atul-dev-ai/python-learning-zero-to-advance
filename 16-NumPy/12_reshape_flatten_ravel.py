@@ -18,3 +18,9 @@ matrix = np.array([
 print(matrix)
 print("Shape:", matrix.shape) # (2, 3) mane 2ta row, 3ta column ache
 print("Dimensions:", matrix.ndim)
+
+# reshape()
+reshape_a = a.reshape(2, 3)
+print(reshape_a)
+print("Dimension:",reshape_a.ndim)
+print(reshape_a.shape)
