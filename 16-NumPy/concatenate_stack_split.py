@@ -47,3 +47,15 @@ parts = np.array_split(numbers, 3)
 for part in parts:
     print(part)
 
+# split 2D array
+matrix = np.array([
+    [1, 2],
+    [3, 4],
+    [5, 6],
+    [7, 8]
+])
+
+parts = np.split(matrix, 2, axis = 0)
+
+for part in parts:
+    print(part)
