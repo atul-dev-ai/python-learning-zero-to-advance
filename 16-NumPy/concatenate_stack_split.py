@@ -39,3 +39,11 @@ print(result)
 numbers = np.array([10, 20, 30, 40, 50, 60])
 parts = np.split(numbers, 3)
 print(parts)
+
+# np.array_split()
+numbers = np.array([10, 20, 30, 40, 50, 60, 70])
+parts = np.array_split(numbers, 3)
+
+for part in parts:
+    print(part)
+
