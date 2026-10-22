@@ -7,7 +7,7 @@ ndim tells us the number of dimensions.
 a = np.array([10, 20, 30, 40, 50, 60])
 
 print(a)
-print("Shape:", a.shape)
+print("Shape:", a.shape) # (6,) mane ekti dimension e 6 ta elements acche
 print("Dimensions:", a.ndim)
 
 # two dimensional array 
@@ -15,5 +15,6 @@ matrix = np.array([
     [10, 20, 30],
     [40, 50, 60]
 ])
-print("Shape:", matrix.shape)
+print(matrix)
+print("Shape:", matrix.shape) # (2, 3) mane 2ta row, 3ta column ache
 print("Dimensions:", matrix.ndim)
