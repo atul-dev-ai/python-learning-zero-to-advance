@@ -17,3 +17,7 @@ print(b.dtype)
 print(c.dtype)
 print(d.dtype) # <U6 = Unicode string type
 
+# Declaring data type when creating an array
+marks = np.array([10, 20, 30], dtype = np.float64)
+print(marks)
+print(marks.dtype)
