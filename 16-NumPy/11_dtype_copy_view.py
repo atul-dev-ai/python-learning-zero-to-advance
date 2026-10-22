@@ -21,3 +21,9 @@ print(d.dtype) # <U6 = Unicode string type
 marks = np.array([10, 20, 30], dtype = np.float64)
 print(marks)
 print(marks.dtype)
+
+# astype()
+# astype() converts an array's elements to a specified data type and returns a converted array
+decimal_numbers = numbers.astype(float)
+print(decimal_numbers)
+print(decimal_numbers.dtype)
