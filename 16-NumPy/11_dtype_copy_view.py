@@ -43,3 +43,11 @@ print(int_to_bool.dtype)
 flt_to_bl = marks.astype(bool)
 print(flt_to_bl)
 print(flt_to_bl.dtype)
+
+# copy()
+original = np.array([10, 20, 30])
+copied = original.copy()
+copied[0] = 999
+
+print("Original:", original)
+print("Copied:", copied)
