@@ -40,3 +40,12 @@ flat[0] = 999
 print("Flattened:", flat)
 print(flat.shape)
 print("Original:", matrix)
+
+# ravel()
+# ravel( 0 array ke 1D kore. tobe eti sombob hole view return kore, proyojone copy 0 toiti korte pare.
+flat = matrix.ravel()
+print(flat)
+print(flat.shape)
+
+print(matrix)
+print(matrix.shape)
