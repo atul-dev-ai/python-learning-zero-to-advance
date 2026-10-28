@@ -49,3 +49,9 @@ print(flat.shape)
 
 print(matrix)
 print(matrix.shape)
+
+# -1 in reshape
+numbers = np.arange(1, 13)
+matrix = numbers.reshape(3, -1)
+print(matrix)
+print(matrix.shape)
