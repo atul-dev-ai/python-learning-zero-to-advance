@@ -30,3 +30,9 @@ print(result)
 Two dimensions are compatible for broadcasting when they are equal or 
 when either dimension is 1. Missing leading dimensions are treated as 1.
 '''
+
+# Column Broadcasting
+bonus = np.array([10, 20])
+column_bonus = bonus.reshape(2, 1)
+print("Bonus Shape:", column_bonus.shape)
+print(marks + column_bonus)
