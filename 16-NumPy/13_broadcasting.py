@@ -25,3 +25,8 @@ print("Bonus shape:", bonus.shape)
 
 result = marks + bonus
 print(result)
+
+'''
+Two dimensions are compatible for broadcasting when they are equal or 
+when either dimension is 1. Missing leading dimensions are treated as 1.
+'''
