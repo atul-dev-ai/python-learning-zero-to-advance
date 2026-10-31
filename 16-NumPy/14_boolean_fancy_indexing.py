@@ -23,3 +23,18 @@ print(marks[(marks < 40) | (marks > 80)])
 
 # NOT 
 print(marks[~(marks > 50)])
+
+
+# names np array
+names = np.array([
+    "Atul",
+    "Ankit",
+    "Sakib",
+    "Nabil",
+    "Hasan",
+    "Rahim",
+    "Karim",
+    "Anik"
+])
+
+marks = np.array([85, 35, 65, 45, 90])
