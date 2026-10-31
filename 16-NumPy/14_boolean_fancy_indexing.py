@@ -20,3 +20,6 @@ print(result)
 
 # OR 
 print(marks[(marks < 40) | (marks > 80)])
+
+# NOT 
+print(marks[~(marks > 50)])
