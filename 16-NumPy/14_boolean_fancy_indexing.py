@@ -45,3 +45,7 @@ print("Passed Students: ")
 print(names[passed])
 print("Passed marks: ")
 print(marks[passed])
+
+# np.where() 
+result = np.where(marks >= 40, "Pass", "Fail")
+print(result)
