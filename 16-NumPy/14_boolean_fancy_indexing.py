@@ -14,5 +14,9 @@ passed_marks = marks[marks > 40]
 
 print(passed_marks)
 
+# AND
 result = marks[(marks > 40) & (marks < 80)]
 print(result)
+
+# OR 
+print(marks[(marks < 40) | (marks > 80)])
