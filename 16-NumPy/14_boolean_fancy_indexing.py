@@ -37,4 +37,11 @@ names = np.array([
     "Anik"
 ])
 
-marks = np.array([85, 35, 65, 45, 90])
+marks = np.array([85, 35, 65, 45, 90, 80, 60, 50])
+
+# find passed students
+passed = marks >= 40
+print("Passed Students: ")
+print(names[passed])
+print("Passed marks: ")
+print(marks[passed])
