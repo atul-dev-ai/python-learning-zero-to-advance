@@ -84,3 +84,12 @@ students = np.loadtxt(
 )
 
 print(students)
+
+students = np.genfromtxt(
+    "C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.csv",
+    delimiter=",",
+    skip_header=1,
+    dtype=int
+)
+
+print(students)
