@@ -78,3 +78,10 @@ print(select_specific_rows)
 # select row 1 and 2
 select_rows = matrix[[1, 2]]
 print(select_rows)
+
+# row column
+rows = [0, 1, 2]
+columns = [0, 1, 2]
+
+show_row_column = matrix[rows, columns]
+print(show_row_column)
