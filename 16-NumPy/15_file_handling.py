@@ -48,3 +48,12 @@ ages = np.array([20, 22, 21, 23, 19, 24, 25, 22])
 np.savez("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students.npz", names=names, marks=marks, ages=ages)
 
 print("All arrays saved successfully to students.npz")
+
+# data loading
+data = np.load("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students.npz")
+print("All arrays loaded successfully from students.npz")
+
+print("Loaded names:", data["names"])
+print("Loaded marks:", data["marks"])
+print("Loaded ages:", data["ages"])
+
