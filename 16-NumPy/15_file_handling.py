@@ -27,3 +27,24 @@ print("Data type of the array:", marks.dtype)
 # dimensions
 print("Number of dimensions of the array:", marks.ndim)
 
+
+names = np.array([
+    "Atul",
+    "Ankit",
+    "Sakib",  
+    "Rahul",
+    "Hasan",
+    "Rahim",
+    "Karim",
+    "Anik",
+])
+
+marks = np.array([85, 35, 65, 45, 90, 80, 60, 50])
+
+ages = np.array([20, 22, 21, 23, 19, 24, 25, 22])
+
+# np.savez
+# np.savez() allows you to save multiple NumPy arrays into a single compressed .npz file, making it convenient to store related data together.
+np.savez("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students.npz", names=names, marks=marks, ages=ages)
+
+print("All arrays saved successfully to students.npz")
