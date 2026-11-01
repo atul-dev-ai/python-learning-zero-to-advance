@@ -75,5 +75,6 @@ matrix = np.array([
 select_specific_rows = matrix[[0, 2]]
 print(select_specific_rows)
 
+# select row 1 and 2
 select_rows = matrix[[1, 2]]
 print(select_rows)
