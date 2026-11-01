@@ -87,5 +87,5 @@ show_row_column = matrix[rows, columns]
 print(show_row_column)
 
 # first select values greater than 50
-selected_values = matrix[matrix > 50]
-print(selected_values)
+filtered = marks[marks > 50]
+print(filtered)
