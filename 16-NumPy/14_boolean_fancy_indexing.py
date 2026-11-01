@@ -53,3 +53,8 @@ print(result)
 # bonus
 bonus_mark = np.where(marks >= 50, marks + 5, marks)
 print(bonus_mark)
+
+'''
+Fancy Indexing is a NumPy technique that selects specific elements using a list o array of indices. 
+It allows you to access multiple elements of an array at once, based on their positions.
+'''
