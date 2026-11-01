@@ -23,3 +23,7 @@ print("Shape of the array:", marks.shape)
 
 # data type 
 print("Data type of the array:", marks.dtype)
+
+# dimensions
+print("Number of dimensions of the array:", marks.ndim)
+
