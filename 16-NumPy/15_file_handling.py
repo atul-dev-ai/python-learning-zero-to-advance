@@ -57,5 +57,6 @@ print("All arrays loaded successfully from students.npz")
 print("Loaded names:", data["names"])
 # print marks 
 print("Loaded marks:", data["marks"])
+# print ages 
 print("Loaded ages:", data["ages"])
 
