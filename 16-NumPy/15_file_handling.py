@@ -53,6 +53,7 @@ print("All arrays saved successfully to students.npz")
 data = np.load("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students.npz")
 print("All arrays loaded successfully from students.npz")
 
+# print names 
 print("Loaded names:", data["names"])
 print("Loaded marks:", data["marks"])
 print("Loaded ages:", data["ages"])
