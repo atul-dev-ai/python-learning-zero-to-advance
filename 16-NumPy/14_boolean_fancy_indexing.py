@@ -58,3 +58,6 @@ print(bonus_mark)
 Fancy Indexing is a NumPy technique that selects specific elements using a list o array of indices. 
 It allows you to access multiple elements of an array at once, based on their positions.
 '''
+# fancy indexing
+fancy_index = marks[[1, 3, 5]]
+print(fancy_index)
