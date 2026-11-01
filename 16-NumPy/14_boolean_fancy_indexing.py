@@ -61,3 +61,13 @@ It allows you to access multiple elements of an array at once, based on their po
 # fancy indexing
 fancy_index = marks[[1, 3, 5]]
 print(fancy_index)
+
+
+# fancy indexing in 2D array
+matrix = np.array([
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90],
+    [100, 110, 120]
+])
+
