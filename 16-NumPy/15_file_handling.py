@@ -60,3 +60,27 @@ print("Loaded marks:", data["marks"])
 # print ages 
 print("Loaded ages:", data["ages"])
 
+# np.savetxt
+'''
+np.savetxt() saves a NumPy array to a text file, allowing you to store data in a human readable format. You can specify the delimiter and format for the saved data.
+'''
+
+students = np.array([
+    [101, 85, 90],
+    [102, 75, 80],
+    [103, 65, 70],
+    [104, 95, 100],
+    [105, 55, 60]
+])
+
+# save array to a text file
+np.savetxt("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.txt", students, delimiter=",", fmt = "%d", header = "ID, Math, English", comments = "")
+print("CSV File saved successfully to students_data.txt")
+students = np.loadtxt(
+    "C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.txt",
+    delimiter=",",
+    skiprows=1,
+    dtype=int
+)
+
+print(students)
