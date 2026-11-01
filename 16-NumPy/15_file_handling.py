@@ -73,11 +73,11 @@ students = np.array([
     [105, 55, 60]
 ])
 
-# save array to a text file
-np.savetxt("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.txt", students, delimiter=",", fmt = "%d", header = "ID, Math, English", comments = "")
-print("CSV File saved successfully to students_data.txt")
+# save array to a csv file
+np.savetxt("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.csv", students, delimiter=",", fmt = "%d", header = "ID, Math, English", comments = "")
+print("CSV File saved successfully to students_data.csv")
 students = np.loadtxt(
-    "C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.txt",
+    "C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\students_data.csv",
     delimiter=",",
     skiprows=1,
     dtype=int
