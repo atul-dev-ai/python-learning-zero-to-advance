@@ -20,3 +20,6 @@ print("Loaded marks:", marks)
 
 # shape
 print("Shape of the array:", marks.shape)
+
+# data type 
+print("Data type of the array:", marks.dtype)
