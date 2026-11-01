@@ -89,3 +89,7 @@ print(show_row_column)
 # first select values greater than 50
 filtered = marks[marks > 50]
 print(filtered)
+
+# then select specific positions
+result = filtered[[0, 2]]
+print(result)
