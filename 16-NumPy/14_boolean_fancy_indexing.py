@@ -71,3 +71,9 @@ matrix = np.array([
     [100, 110, 120]
 ])
 
+# select row 0 and 2
+select_specific_rows = matrix[[0, 2]]
+print(select_specific_rows)
+
+select_rows = matrix[[1, 2]]
+print(select_rows)
