@@ -17,3 +17,6 @@ print("Array saved successfully to marks.npy")
 marks = np.load("C:\\Users\\ADMIN\\Documents\\python-learning-zero-to-advance\\16-NumPy\\marks.npy")
 print("Array loaded successfully from marks.npy")
 print("Loaded marks:", marks)
+
+# shape
+print("Shape of the array:", marks.shape)
