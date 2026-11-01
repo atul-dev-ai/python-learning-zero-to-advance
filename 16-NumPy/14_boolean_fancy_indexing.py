@@ -49,3 +49,7 @@ print(marks[passed])
 # np.where() 
 result = np.where(marks >= 40, "Pass", "Fail")
 print(result)
+
+# bonus
+bonus_mark = np.where(marks >= 50, marks + 5, marks)
+print(bonus_mark)
